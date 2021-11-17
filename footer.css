@@ -1,0 +1,150 @@
+.footer-customer-relationship {
+    padding-top: 40px;
+}
+
+.span1,
+.span10,
+.span11,
+.span12,
+.span13,
+.span14,
+.span15,
+.span16,
+.span17,
+.span18,
+.span19,
+.span2,
+.span20,
+.span3,
+.span4,
+.span5,
+.span6,
+.span7,
+.span8,
+.span9 {
+    float: left;
+    margin-left: 14px;
+    min-height: 1px;
+}
+
+.span12 {
+    width: 730px;
+}
+
+.footer-customer-relationship .introduction {
+    float: left;
+}
+
+.footer-customer-relationship .customer-email {
+    position: relative;
+    margin-top: -4px;
+}
+
+.footer-customer-relationship .customer-email input {
+    display: block;
+    width: 209px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    color: #b0b0b0;
+    padding: 2px 40px 2px 17px;
+    margin: 0;
+    border: 1px solid #e0e0e0;
+    outline: 0;
+    background-color: #fff;
+}
+
+.footer-customer-relationship .social-media {
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.footer-customer-relationship .customer-reaction {
+    float: left;
+    margin-left: 40px;
+}
+
+.footer-customer-relationship .social-media .social-media-item img {
+    display: inline-block;
+    font-size: 12px;
+    height: 18px;
+    overflow: hidden;
+    width: 18px;
+}
+
+.social-media-item {
+    width: 18px;
+    height: 18px;
+    margin-left: 17px;
+}
+
+.footer-nav {
+    display: flex;
+    background-color: #212121;
+    color: #b0b0b0;
+    justify-content: center;
+    padding: 40px 0 60px;
+}
+
+.column-wrapper {
+    margin: 0 0 0 14px;
+    width: 172px;
+    float: left;
+}
+
+dt {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+dd {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.column-item {
+    color: #b0b0b0;
+    display: inline-block;
+    hyphens: auto;
+    line-height: 18px;
+    margin-top: 14px;
+}
+
+dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+dd,
+dl,
+dt {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-bottom {
+    background-color: #212121;
+    height: 70px;
+    line-height: 70px;
+}
+
+.footer-bottom .copyright {
+    color: #b0b0b0;
+    float: left;
+    font-size: 14px;
+    margin: 0 14px;
+}
+
+.footer-bottom .cookie-policy {
+    color: #b0b0b0;
+    font-size: 14px;
+    padding-left: 14px;
+}

@@ -1,0 +1,636 @@
+/* Nav Redmi-note8 */
+.xm-navbar{
+    background: #f5f5f5;
+    box-sizing: border-box;
+    min-width: 1226px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.xm-navbar-container{
+    align-items: center;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1226px;
+}
+.xm-navbar-title{
+    align-items: baseline;
+    color: #333;
+    display: flex;
+    font-size: 24px;
+    line-height: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.xm-navbar-title h1{
+    display: inline-block;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+.xm-text{
+    display: inline-block;
+    white-space: break-spaces;
+}
+.xm-related{
+    color: #333;
+    flex: 1 1;
+    font-size: 24px;
+    line-height: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.xm-related-container{
+    align-items: center;
+    display: flex;
+}
+.xm-related-title{
+    color: #333;
+    display: flex;
+    flex: 1 1;
+    font-size: 24px;
+    line-height: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.xm-navbar-nav-item{
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 16px;
+}
+.xm-navbar-nav-item a{
+    color: #434a54;
+    font-size: 14px;
+}
+
+/* Content redmi-note8 */
+.f-bold{
+    font-weight: 700;
+}
+.overview-con{
+    overflow: hidden;
+    width: 100%;
+    background-color: white;
+    /* width: 10rem; */
+}
+.overview-con .black{
+    color: #000;
+}
+.overview-con .is-visible .xm-price,
+.overview-con .is-visible .xm-text,
+.overview-con .is-visible .xm-visible{
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 1s linear;
+}
+.overview-con .xm-price,
+.overview-con .xm-text,
+.overview-con .xm-visible{
+    opacity: 0;
+    transform: translateY(2vh);
+}
+.pin-spacer{
+    background-color: #000;
+}
+.section{
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    line-height: 1.2;
+    margin-bottom: -.007813rem;
+    min-width: 4.789063rem;
+    overflow: hidden;
+    position: relative;
+}
+.section{
+    background-repeat: no-repeat;
+    margin-bottom: -1px;
+}
+.section-header{
+    background-color: #000;
+    height: 100vh!important;
+    margin-bottom: -.007813rem;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.section-header .header-base{
+    height: 669px;
+    padding-top: 167.256px;
+    position: relative;
+    text-align: center;
+    z-index: -2;
+}
+.section-header .header-base .f40{
+    line-height: 35px;
+    margin-top: 44.6016px;
+    width: 802.83px;
+}
+.section-header .header-base .f40:nth-of-type(n+2){
+    margin-top: unset;
+}
+.section-header .header-base .text-box-header{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.section-header .header-base .text-box-header .image{
+    width: 508.453px;
+    height: 55.750px;
+}
+.section-header .image-left{
+    width: 535.95px;
+    left: 25.188px;
+    position: absolute;
+    height: 1128.41px;
+    z-index: -1;
+}
+.section-header .image-right{
+    height: 5.9375rem;
+    right: 1.410156rem;
+    position: absolute;
+    width: 3.003906rem;
+    z-index: -1;
+}
+
+
+
+
+
+.one{
+    background-image: url("./pics/redmi-note8/overview01.jpg");
+    background-size: 100% 100%;
+    height: 710px;
+    background-repeat: no-repeat;
+}
+.header-logo{
+    position: relative;
+    height: 8%;
+    width: 33%;
+    top: 220px;
+    left: 15%;
+}
+.text-header-logo{
+    position: relative;
+    top:220px;
+    left: 15%;
+    font-size: 200%;
+    color: white;
+}
+.two{
+    padding: auto;
+    height: 100%;
+}
+.feature-list{
+    align-items: stretch;
+    box-sizing: border-box;
+    display: flex;
+    height: 10%;
+    
+}
+.feature-item{
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 25%;
+    font-size: 150%;
+    color: black;
+    padding: 4%;
+}
+.hr-small{
+    height: 50px;
+}
+.three{
+    background-image: url("./pics/redmi-note8/new_02.jpg");
+    background-size: 100% 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.text-three{
+    text-align: center;
+    margin-top: 150px;
+    color:white;
+    font-size: 2.5rem;
+    opacity: 0;
+    z-index: 1;
+}
+.text-three-content{
+    text-align: center;
+    margin-top: 50px;
+    color:white;
+    opacity: 0;
+    z-index: 1;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.four{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    line-height: 1.2;
+    margin-bottom: -1px;
+    min-width: 4.789063rem;
+    overflow: hidden;
+}
+.four-head{
+    text-align: center;
+    color: black;
+    font-size: 2.5rem;
+    opacity: 0;
+    z-index: 1;
+    min-width: 4.789063rem;
+}
+.four-img{
+    width: 55%;
+    height: 80%;
+    margin-top: 70px;
+    margin-left: 100px;
+    float: left;
+}
+.four-content{
+    float: left;
+    margin-left: 100px;
+    margin-top: 450px;
+}
+.four-content-head{
+    opacity: 0;
+    font-size: 1.5rem;
+}
+.four-content-text{
+    opacity: 0;
+}
+.five{
+    background-image: url("./pics/redmi-note8/overview04.jpg");
+    background-size: 100% 100%;
+    height: 580px;
+    background-repeat: no-repeat;
+}
+.six{
+    background-color: white;
+    padding: 80px 170px 80px 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    line-height: 1.2;
+    margin-bottom: -1px;
+    min-width: 4.789063rem;
+    overflow: hidden;
+    display: flex;
+}
+.left-con{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.right-con{
+    box-sizing: border-box;
+    padding-top: 3.59375rem;
+    width: 30%;
+}
+.left-con-1{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.right-con-1{
+    box-sizing: border-box;
+    padding-top: 3.59375rem;
+    width: 60%;
+}
+.six-content-head-1{
+    font-size: 1.5rem;
+}
+.xm-text {
+    display: inline-block;
+    white-space: break-spaces;
+}
+.six-img{
+    width: 55%;
+    height: 80%;
+    min-width: 5rem;
+    min-height: 3.5rem;
+}
+.six-img-2{
+    width: 100%;
+    height: 80%;
+    min-width: 5rem;
+    min-height: 3.5rem;
+}
+.six-content-head{
+    font-size: 1.5rem;
+    opacity: 0;
+}
+.six-content-text{
+    opacity: 0;
+}
+.seven{
+    background-image: url("./pics/redmi-note8/overview08.jpg");
+    background-size: 100% 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+.seven-text{
+    text-align: center;
+    margin-top: 150px;
+    color:white;
+    font-size: 2.5rem;
+    opacity: 0;
+    z-index: 1;
+}
+.seven-text-head{
+    padding-top: 80px;
+    text-align: center;
+    margin-top: 50px;
+    color:white;
+    font-size: 2.5rem;
+    opacity: 0;
+    z-index: 1;
+}
+.feature-list-1 {
+    align-items: stretch;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 350px;
+}
+.feature-item-1 {
+    border: 1px solid rgba(255,255,255,.5);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    min-height: 0.75rem;
+    text-align: center;
+    width: 15rem;
+    height: 6rem;
+    color: white;
+}
+.eight{
+    padding-top: 200px;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    line-height: 1.2;
+    margin-bottom: -1px;
+    min-width: 4.789063rem;
+    overflow: hidden;
+}
+.eight-head{
+    text-align: center;
+    color: black;
+    font-size: 2.5rem;
+    opacity: 0;
+    z-index: 1;
+    min-width: 4.789063rem;
+}
+.eight-text{
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    opacity: 0;
+    z-index: 1;
+    min-width: 4.789063rem;
+}
+.nine{
+    background-image: url("./pics/redmi-note8/overview09.jpg");
+    background-size: 100% 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+.ten{
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    line-height: 1.2;
+    margin-bottom: -1px;
+    min-width: 4.789063rem;
+    height: 750px;
+    overflow: hidden;
+    position: relative;
+    padding: 1.917969rem 0.9375rem 0.652344rem 1.332031rem;
+}
+.ten-black-box{
+    align-items: flex-end;
+    background-color: #121215;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 75rem;
+}
+.ten-video{
+    align-items: center;
+    display: flex;
+    height: 3.242188rem;
+    justify-content: center;
+    left: 30.9375rem;
+    position: absolute;
+    top: 25.210938rem;
+    width: 4.84375rem;
+}
+.ten-text-head{
+    position: absolute;
+    right: 4rem;
+    color: white;
+    font-size: 2.5rem;
+    width: 450px;
+    opacity: 0;
+}
+.ten-text-content{
+    padding-top: 5rem;
+    position: absolute;
+    right: 4rem;
+    color: white;
+    font-size: 1rem;
+    opacity: 0;
+}
+.eleven{
+    padding-top: 200px;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    line-height: 1.2;
+    margin-bottom: -1px;
+    min-width: 4.789063rem;
+    overflow: hidden;
+}
+.eleven-head{
+    text-align: center;
+    color: black;
+    font-size: 2.5rem;
+    opacity: 0;
+    z-index: 1;
+    min-width: 4.789063rem;
+}
+.eleven-text{
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    opacity: 0;
+    z-index: 1;
+    min-width: 4.789063rem;
+}
+.twe{
+    background-image: url("./pics/redmi-note8/overview11.jpg");
+    background-size: 100% 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    line-height: 1.2;
+    margin-bottom: -1px;
+    min-width: 4.789063rem;
+    overflow: hidden;
+    position: relative;
+}
+.twe-text{
+    left: 10rem;
+    position: absolute;
+    top: 20rem;
+    width: 35rem;
+    color: white;
+    font-size: 2rem;
+    opacity: 0;
+}
+.thi{
+    background-color: white;
+    padding: 80px 170px 80px 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    line-height: 1.2;
+    margin-bottom: -1px;
+    min-width: 4.789063rem;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+.thi-content-head{
+    font-size: 1.5rem;
+    opacity: 0;
+}
+.thi-img{
+    height: 80%;
+    left: 15rem;
+    position: absolute;
+    top: 6rem;
+    width: 40%;
+    z-index: 1;
+}
+.fourteen{
+    background-color: #EBEDF0;
+    padding: 120px 170px 80px 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    line-height: 1.2;
+    margin-bottom: -1px;
+    min-width: 4.789063rem;
+    overflow: hidden;
+    display: flex;
+}
+.fifteen{
+    background-color: #EBEDF0;
+    padding: 120px 170px 80px 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    line-height: 1.2;
+    margin-bottom: -1px;
+    min-width: 4.789063rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.fifteen-head{
+    font-size: 2rem;
+}
+.feature-list-2{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.15625rem;
+    width: 100%;
+}
+.feature-item-2{
+    margin: 20px;
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 8rem;
+    justify-content: center;
+    width: 15rem;
+    padding: 20px;
+}
+.fifteen-icon{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.sixteen{
+    background-image: url("./pics/redmi-note8/overview14.jpg");
+    background-size: 100% 100%;
+    height: 620px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    line-height: 1.2;
+    margin-bottom: -1px;
+    min-width: 4.789063rem;
+    overflow: hidden;
+}
+.sixteen-head{
+    color: white;
+    width: 95%;
+    font-size: 2rem;
+    opacity: 0;
+    padding-left: 70%;
+    padding-top: 10%;
+}
+.seventeen{
+    background-image: url("./pics/redmi-note8/overview15.jpg");
+    background-size: 100% 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    line-height: 1.2;
+    margin-bottom: -1px;
+    min-width: 4.789063rem;
+    overflow: hidden;
+    position: relative;
+}
+.seventeen-text{
+    left: 20rem;
+    position: absolute;
+    top: 8rem;
+    width: 35rem;
+    color: white;
+    font-size: 2rem;
+    opacity: 1;
+}
+.final-text{
+    padding: 100px;
+    color: #A1758B;
+    font-size: 0.8rem;
+}

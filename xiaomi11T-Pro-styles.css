@@ -1,0 +1,1312 @@
+body{
+    background-color: #f5f5f5;
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+a, a:hover{
+    color: unset;
+    text-decoration: none;
+}
+
+main{
+    display: inline-block;
+    font-size: 16px;
+}
+
+img {
+    border: 0;
+}
+
+.xiaomi-11t-pro{
+    background-color: #000;
+    width: 100%;
+}
+
+.xiaomi-11t-pro .section1{
+    height: 1251.81px;
+}
+
+.xiaomi-11t-pro .section{
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    color: #fff;
+    line-height: 1.2;
+    margin-bottom: -1px;
+    min-width: 911.359px;
+    overflow: hidden;
+    position: relative;
+}
+
+.xiaomi-11t-pro .section1 .text-container{
+    position: absolute;
+    top: 100px;
+    text-align: center;
+    width: 1040.7px;
+}
+
+.xiaomi-11t-pro .section .text-container{
+    margin: 0 auto;
+    text-align: center;
+    width: 1077.86px;
+}
+
+.xiaomi-11t-pro .section .xm-text,
+.xiaomi-11t-pro .section img,
+.xiaomi-11t-pro .section video{
+    display: block;
+}
+
+.xiaomi-11t-pro .xm-price,
+.xiaomi-11t-pro .xm-text{
+    opacity: 0;
+    transform: translateY(2vh);
+}
+
+.xiaomi-11t-pro .section1 .f36,
+.xiaomi-11t-pro .section1 .name,
+.xiaomi-11t-pro .section1 .price{
+    transition-delay: 1s;
+}
+
+.xiaomi-11t-pro .section1 .name{
+    height: 55.75px;
+    width: 645.234px;
+    margin: 0 auto 33.4511px;
+}
+
+.xiaomi-11t-pro .xm-price,
+.xiaomi-11t-pro .xm-text{
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 1s linear;
+}
+
+.xiaomi-11t-pro .section2 .f26{
+    color: #99999d;
+}
+
+.xiaomi-11t-pro .section2 .f26:first-of-type{
+    margin-bottom: 14.8672px;
+}
+
+.xiaomi-11t-pro .section .f26{
+    color: #99999d;
+}
+
+.xiaomi-11t-pro .f160{
+    font-size: 118.938px;
+}
+
+.xiaomi-11t-pro .f120{
+    font-size: 89.2031px;
+}
+
+.xiaomi-11t-pro .f72{
+    font-size: 53.5219px;
+}
+
+.xiaomi-11t-pro .f52{
+    font-size: 38.6547px;
+}
+
+.xiaomi-11t-pro .f50{
+    font-size: 37.1681px;
+}
+
+.xiaomi-11t-pro .f48{
+    font-size: 36px;
+}
+
+.xiaomi-11t-pro .f40{
+    font-size: 29.7344px;
+}
+
+.xiaomi-11t-pro .f36{
+    font-size: 26.7609px;
+}
+
+.xiaomi-11t-pro .f26{
+    font-size: 19.3274px;
+}
+
+.f-bold{
+    font-weight: 700;
+}
+
+.f-heavy{
+    font-weight: 900;
+}
+
+.xm-text{
+    display: inline-block;
+    white-space: break-spaces;
+}
+
+.spacer{
+    z-index: auto;
+    float: none;
+    flex-shrink: 1;
+    display: block;
+    margin: 0px 0px -1px;
+    inset: 0px;
+    position: relative;
+    overflow: visible;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.video1-section, .video_outer{
+    position: relative;
+}
+
+.video1-section{
+    height: auto;
+    width: 100%;
+}
+
+.xiaomi-11t-pro .section2{
+    overflow: visible;
+    height: 817.688px;
+}
+
+.xiaomi-11t-pro .section2 .text-container-left{
+    margin-left: 817.695px;
+}
+
+.xiaomi-11t-pro .section .text-container-left{
+    width: 594.688px;
+}
+
+.xiaomi-11t-pro .section2 .img-box{
+    position: relative;
+    margin-bottom: 57.9821px;
+    width: 589.469px;
+    height: 327.078px;
+}
+
+.xiaomi-11t-pro .section2 .img{
+    height: 327.078px;
+    width: 589.469px;
+}
+
+.xiaomi-11t-pro .section2 .sec2_img2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.xiaomi-11t-pro .section2 .f160{
+    text-align: right;
+    width: 892.031px;
+    position: absolute;
+    top: 227.468px;
+    right: 880.138px;
+}
+
+.xiaomi-11t-pro .section2 .video-box{
+    background-color: #000;
+    display: none;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 1070.44px;
+    transition: all .1s linear;
+}
+
+.xiaomi-11t-pro .section2 .sec2-video1{
+    width: 100%;
+}
+
+.video_self{
+    height: 100%;
+    width: 100%;
+}
+
+.xmvideo-playicon{
+    height: 120px;
+    left: 50%;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    z-index: 1;
+}
+
+.xiaomi-11t-pro .section2 .video-btn{
+    cursor: pointer;
+    width: 83.9996px;
+    height: 83.9996px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.xiaomi-11t-pro .section3{
+    padding-top: 193.273px;
+}
+
+.scroll-section{
+    background-color: #000;
+    box-sizing: border-box;
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+
+.xiaomi-11t-pro .section3 .text-container{
+    width: 799.844px;
+}
+
+.xiaomi-11t-pro .section3 .f26,
+.xiaomi-11t-pro .section3 .f52,
+.xiaomi-11t-pro .section3 .f120{
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, #99abd3 0, #e0a4ab 32.00684%, #fff 64.13574%, #dadcfa);
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.xiaomi-11t-pro .section .upper-title{
+    text-transform: uppercase;
+}
+
+.xiaomi-11t-pro .section .f120{
+    line-height: 1;
+}
+
+.xiaomi-11t-pro .section3 .f26{
+    margin-top: 22.3009px;
+}
+
+.xiaomi-11t-pro .section4 .text-container{
+    width: 799.844px;
+}
+
+.xiaomi-11t-pro .section .fc78{
+    color: #787878;
+}
+
+.xiaomi-11t-pro .section4 .video-box{
+    margin: 52.0353px auto 0;
+    width: 1041.44px;
+}
+
+.xiaomi-11t-pro .section4 .video1{
+    border-radius: 14.8672px;
+    width: 1041.44px;
+    height: 565.688px;
+    overflow: hidden;
+}
+
+.xiaomi-11t-pro .section4 .flex-list{
+    justify-content: space-between;
+}
+
+.xiaomi-11t-pro .section .flex-list{
+    display: flex;
+}
+
+.xiaomi-11t-pro .section4 .video-left,
+.xiaomi-11t-pro .section4 .video-right{
+    border-radius: 14.8672px;
+    overflow: hidden;
+    margin-top: 14.8672px;
+    position: relative;
+    width: 512.172px;
+    height: 557.516px;
+}
+
+.xiaomi-11t-pro .section4 .video2,
+.xiaomi-11t-pro .section4 .video3{
+    transform: scale(1.3);
+    transition: all .7s linear;
+    width: 512.172px;
+    height: 557.516px;
+}
+
+.xiaomi-11t-pro .section4 .video2:hover,
+.xiaomi-11t-pro .section4 .video3:hover{
+    transform: scale(1);
+}
+
+.xiaomi-11t-pro .section4 .text-box{
+    width: 431.141px;
+    position: absolute;
+    top: 62.4422px;
+    left: 53.5219px;
+}
+
+.xiaomi-11t-pro .section4 .text-box .f26{
+    color: #fff;
+    margin-top: 14.8672px;
+}
+
+.xiaomi-11t-pro .section4 .video-btn{
+    cursor: pointer;
+    width: 83.9844px;
+    height: 83.9844px;
+    position: absolute;
+    top: 419.255px;
+    left: 52.7786px;
+}
+
+.hdr-section{
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+.xiaomi-11t-pro .section5 .sec5-pin1{
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+}
+
+.xiaomi-11t-pro .section5 .text-container-left{
+    width: 1040.7px;
+    margin-left: 485.414px;
+    margin-top: 148.672px;
+}
+
+.xiaomi-11t-pro .section5 .box1{
+    display: none;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+.xiaomi-11t-pro .section5 .sec5-video{
+    width: 100%;
+}
+
+.xiaomi-11t-pro .section5 .sec5-mask{
+    display: flex;
+    width: 3464.05px;
+    height: 893.518px;
+    position: absolute;
+    left: 0;
+    top: -1.48681px;
+    z-index: 2;
+    transition: all .3s linear;
+}
+
+.xiaomi-11t-pro .section5 .mask1{
+    background-color: #000;
+    height: 893.518px;
+    width: 1561.05px;
+}
+
+.xiaomi-11t-pro .section5 .sec5-img1{
+    width: 99vw;
+    height: 893.518px;
+}
+
+.xiaomi-11t-pro .section5 .sec5-pin3{
+    opacity: 0;
+}
+
+.xiaomi-11t-pro .section5 .box2{
+    margin: 74.3359px auto 0;
+    width: 1040.7px;
+}
+
+.xiaomi-11t-pro .section5 .img2{
+    border-radius: 14.8672px;
+    width: 1040.7px;
+    height: 631.844px;
+    transform: scale(1.9);
+    transition: all .3s linear;
+}
+
+.xiaomi-11t-pro .section5 .box2 .f26{
+    margin: 52.0353px auto;
+    text-align: center;
+    width: 758.219px;
+}
+
+.xiaomi-11t-pro .section6{
+    height: 1024.34px;
+    padding-top: 412.565px;
+}
+
+.xiaomi-11t-pro .section6 .text-container-left{
+    margin-left: 1123.96px;
+}
+
+.xiaomi-11t-pro .section6 .xm-text{
+    transition-delay: 1s;
+}
+
+.xiaomi-11t-pro .section7{
+    padding-bottom: 198.75px;
+}
+
+.xiaomi-11t-pro .section7 .text-container{
+    width: 885px;
+}
+
+.xiaomi-11t-pro .section7 .flex-list{
+    justify-content: center;
+    margin-top: 82.5001px;
+}
+
+.xiaomi-11t-pro .section7 .item{
+    background-color: #141414;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 0 9px;
+    padding: 35.25px 37.5001px 33.75px;
+    text-align: center;
+    width: 337.5px;
+}
+
+.xiaomi-11t-pro .section7 .icon{
+    width: 65.25px;
+    height: 65.25px;
+    margin: 0 auto 23.25px;
+}
+
+.xiaomi-11t-pro .section7 .f26{
+    margin-top: 22.5001px;
+}
+
+.xiaomi-11t-pro .section8{
+    height: 892.031px;
+}
+
+.xiaomi-11t-pro .section8 .slider-box{
+    margin: 0 auto;
+    position: relative;
+    height: 892.031px;
+    width: 100%;
+}
+
+.xm-scroll .slick-slider,
+.xm-scroll .slick-slider .slick-list,
+.xm-scroll .slick-slider .slick-slide div,
+.xm-scroll .slick-slider .slick-slide div img{
+    height: 100%;
+}
+
+.xm-scroll .slick-slider .slick-list,
+.xm-scroll .slick-slider .slick-slider,
+.xm-scroll .slick-slider .slick-track{
+    display: block;
+}
+
+.xm-scroll .slick-slider .slick-list{
+    overflow: hidden;
+}
+
+.xm-scroll .slick-slider .slick-slide{
+    display: block;
+    float: left;
+    height: 100%;
+    touch-action: pan-y;
+}
+
+.xm-scroll .slick-slider .slick-dots{
+    bottom: 16px;
+    display: flex!important;
+    flex-basis: auto;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.xm-scroll .slick-slider .slick-dots li{
+    margin: 0 5px;
+    overflow: hidden;
+}
+
+.xm-scroll .slick-slider .slick-dots li>button{
+    border: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.xm-scroll ul{
+    margin: 0;
+    padding: 0;
+}
+
+.xiaomi-11t-pro .section8 .slick-slider .slick-dots li.slick-active button{
+    background-color: #fff;
+}
+
+.xiaomi-11t-pro .section8 .slick-slider .slick-dots li button{
+    background-color: initial;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 10.4062px;
+    width: 10.4062px;
+}
+
+.xiaomi-11t-pro .section8 .slick-dots li>button{
+    outline: none!important;
+}
+
+.xm-scroll .slick-slider .slick-dots li>button{
+    border-radius: 50%;
+    height: 10px;
+    padding: 0;
+    text-indent: -9999px;
+    width: 10px;
+}
+
+.xiaomi-11t-pro .section8 .xm-scroll .slick-slider .slick-dots{
+    bottom: 44.6016px;
+}
+
+.xiaomi-11t-pro .section9{
+    padding: 104.814px 0 84.7431px;
+}
+
+.xiaomi-11t-pro .section9 .scroll-slider{
+    margin: 138.75px auto 0;
+    position: relative;
+    width: 1050px;
+    height: 600px;
+}
+
+.xiaomi-11t-pro .section9 .xm-scroll .slick-slider .slick-list{
+    overflow: visible;
+}
+
+.xiaomi-11t-pro .section9 .img{
+    width: 1050px;
+    height: 600px;
+}
+
+.xiaomi-11t-pro .section9 .item{
+    text-align: center;
+    width: 862.5px;
+    position: absolute;
+    top: -109.5px;
+    left: 93.75px;
+}
+
+.xiaomi-11t-pro .section9 .f36{
+    color: #99999d;
+}
+
+.xiaomi-11t-pro .section9 .xm-scroll .slick-slider .slick-dots{
+    bottom: -29.7344px;
+}
+
+.xiaomi-11t-pro .section9 .slick-slider .slick-dots li button{
+    background-color: initial;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 10.4062px;
+    width: 10.4062px;
+}
+
+.xiaomi-11t-pro .section9 .slick-slider .slick-dots li.slick-active button{
+    background-color: #fff;
+}
+
+.xiaomi-11t-pro .section10{
+    padding-top: 148.672px;
+}
+
+.xiaomi-11t-pro .section10 .text-container{
+    width: 799.844px;
+}
+
+.xiaomi-11t-pro .section10 .f52,
+.xiaomi-11t-pro .section10 .f120{
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, #99abd3 0, #e0a4ab 32.00684%, #fff 64.13574%, #dadcfa);
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.xiaomi-11t-pro .section11{
+    padding-top: 183.61px;
+}
+
+.xiaomi-11t-pro .section11 .text-container{
+    width: 892.031px;
+}
+
+.xiaomi-11t-pro .section11 .img-box{
+    width: 100%;
+    height: 1103.88px;
+    position: relative;
+    margin: 22.3009px auto 0;
+}
+
+.xiaomi-11t-pro .section11 .img{
+    height: 1103.88px;
+    width: 100%;
+}
+
+.xiaomi-11t-pro .section11 .f26{
+    margin-top: 29.7344px;
+}
+
+.xiaomi-11t-pro .section12 .img-box{
+    margin: 0 auto;
+    width: 1042.92px;
+    height: 482.438px;
+    position: relative;
+}
+
+.xiaomi-11t-pro .section12 .img{
+    width: 1042.92px;
+    height: 482.438px;
+}
+
+.xiaomi-11t-pro .section12 .text-box{
+    position: absolute;
+    top: 130.831px;
+    text-align: center;
+    width: 405.859px;
+}
+
+.xiaomi-11t-pro .section12 .box1{
+    left: 81.7696px;
+}
+
+.xiaomi-11t-pro .section12 .box2{
+    left: 559.006px;
+}
+
+.xiaomi-11t-pro .section12 .f48{
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, #9cbdd1, #d8efef);
+    margin: 0 auto 34.1946px;
+    width: fit-content;
+}
+
+.xiaomi-11t-pro .section13{
+    padding-top: 185.84px;
+}
+
+.xiaomi-11t-pro .section13 .text-container{
+    width: 799.844px;
+}
+
+.xiaomi-11t-pro .section13 .f52,
+.xiaomi-11t-pro .section13 .f120{
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, #99abd3 0, #e0a4ab 32.00684%, #fff 64.13574%, #dadcfa);
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.xiaomi-11t-pro .section14{
+    padding-top: 193.273px;
+}
+
+.xiaomi-11t-pro .section14 .text-container{
+    width: 892.031px;
+}
+
+.xiaomi-11t-pro .section14 .video-box{
+    position: relative;
+}
+
+.xiaomi-11t-pro .section14 .sec14-video{
+    height: 1070.44px;
+    width: 100vw;
+}
+
+.xiaomi-11t-pro .section14 .note{
+    text-align: center;
+    width: 669.016px;
+    position: absolute;
+    left: 208.141px;
+    bottom: 60.9556px;
+}
+
+.xiaomi-11t-pro .section14 .f26{
+    margin-top: 44.6016px;
+}
+
+.xiaomi-11t-pro .section15 .box{
+    background-color: #141414;
+    border-radius: 14.8672px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-top: 100.354px;
+    width: 1040.7px;
+    height: 594.688px;
+}
+
+.xiaomi-11t-pro .section15 .f72{
+    margin: 0 auto;
+    text-align: center;
+    width: 966.359px;
+}
+
+.xiaomi-11t-pro .section15 .flex-list{
+    justify-content: center;
+    margin-top: 96.6368px;
+}
+
+.xiaomi-11t-pro .section15 .item{
+    text-align: center;
+    width: 175.422px;
+}
+
+.xiaomi-11t-pro .section15 .icon,
+.xiaomi-11t-pro .section15 .line{
+    transition-delay: 1s;
+}
+
+.xiaomi-11t-pro .section15 .line{
+    background-color: rgba(255, 255, 255, .1);
+    width: 1px;
+    height: 139px;
+    margin: 0 37.1681px;
+}
+
+.xiaomi-11t-pro .section15 .icon1{
+    width: 65.4062px;
+    height: 65.4062px;
+    margin: 0 auto 26.7609px;
+}
+
+.xiaomi-11t-pro .section15 .icon2{
+    width: 63.9219px;
+    height: 63.9219px;
+    margin: 2.23013px auto 26.0176px;
+}
+
+.xiaomi-11t-pro .section15 .icon3{
+    width: 65.4062px;
+    height: 65.4062px;
+    margin: 0 auto 26.7609px;
+}
+
+.xiaomi-11t-pro .section15 .icon4{
+    width: 70.6094px;
+    height: 55.75px;
+    margin: 5.94688px auto 30.4777px;
+}
+
+.xiaomi-11t-pro .section16_1{
+    padding-top: 23.7875px;
+}
+
+.xiaomi-11t-pro .section16_1 .img-box{
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 208.141px;
+    width: 1040.7px;
+}
+
+.xiaomi-11t-pro .section16_1 .xm-text{
+    transition-delay: .5s;
+}
+
+.xiaomi-11t-pro .section16_1 .f48{
+    text-align: center;
+    width: 676.453px;
+}
+
+.xiaomi-11t-pro .section16_2{
+    padding-top: 93.6634px;
+}
+
+.xiaomi-11t-pro .section16_2 .text-container{
+    width: 951.5px;
+}
+
+.xiaomi-11t-pro .section16_2 .img-box{
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 46.0884px auto 0;
+    height: 743.359px;
+    width: 1040.7px;
+    padding-top: 89.2031px;
+    position: relative;
+}
+
+.xiaomi-11t-pro .section16_2 .xm-text{
+    transition-delay: .5s;
+}
+
+.xiaomi-11t-pro .section16_2 .f48{
+    text-align: center;
+    width: 676.453px;
+}
+
+.xiaomi-11t-pro .section16_2 .item{
+    margin-left: 515.148px;
+    width: 483.172px;
+}
+
+.xiaomi-11t-pro .section16_2 .f40{
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, #9cbdd1, #d8efef);
+    width: fit-content;
+}
+
+.xiaomi-11t-pro .section16_2 .f26{
+    margin-top: 14.8672px;
+}
+
+.xiaomi-11t-pro .section16_2 .line{
+    background-color: rgba(255, 255, 255, .2);
+    height: 1px;
+    width: 453.438px;
+    margin: 29.7344px 0px 29.7344px 515.148px;
+}
+
+.xiaomi-11t-pro .section16_2 .note1{
+    margin-top: 44.6016px;
+}
+
+.xiaomi-11t-pro .section .text-btn{
+    text-decoration: underline;
+}
+
+.xm-link{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.xiaomi-11t-pro .section16_2 .note2{
+    width: 223px;
+    position: absolute;
+    top: 680.174px;
+    left: 37.1681px;
+}
+
+.xiaomi-11t-pro .section17{
+    padding-top: 121.911px;
+}
+
+.xiaomi-11t-pro .section17 .text-container{
+    width: 951.5px;
+}
+
+.xiaomi-11t-pro .section17 .flex-list{
+    background-color: #141414;
+    justify-content: center;
+    border-radius: 14.8672px;
+    width: 1040.7px;
+    height: 283.219px;
+    margin: 43.1149px auto 0;
+}
+
+.xiaomi-11t-pro .section17 .item{
+    box-sizing: border-box;
+    text-align: center;
+    margin: 63.929px 8.92031px 0;
+    width: 260.172px;
+}
+
+.xiaomi-11t-pro .section17 .icon{
+    width: 64.6719px;
+    height: 64.6719px;
+    margin: 0 auto 23.0442px;
+}
+
+.xiaomi-11t-pro .section17 .icon1{
+    width: 73.5781px;
+    height: 68.375px;
+    margin-bottom: 18.5839px;
+}
+
+.xiaomi-11t-pro .section17 .note{
+    margin-top: 31.9645px;
+}
+
+.xiaomi-11t-pro .section18{
+    padding-bottom: 163.539px;
+    padding-top: 191.043px;
+}
+
+.xiaomi-11t-pro .section18 .text-container{
+    width: 799.844px;
+}
+
+.xiaomi-11t-pro .section18 .f52,
+.xiaomi-11t-pro .section18 .f120{
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, #99abd3 0, #e0a4ab 32.00684%, #fff 64.13574%, #dadcfa);
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.xiaomi-11t-pro .section19{
+    height: 1152.2px;
+}
+
+.xiaomi-11t-pro .section19 .sec19-video{
+    width: 100vw;
+    height: 1152.2px;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.xiaomi-11t-pro .section19 .text-container-left{
+    width: 1040.7px;
+    margin-top: 74.3359px;
+    margin-left: 480.21px;
+}
+
+.xiaomi-11t-pro .section19 .list1{
+    width: 999.812px;
+    margin-top: 36.4246px;
+    margin-left: 480.21px;
+}
+
+.xiaomi-11t-pro .section19 .item1{
+    width: 594.688px;
+}
+
+.xiaomi-11t-pro .section19 .item2{
+    background-color: rgba(255, 255, 255, .5);
+    width: 1px;
+    height: 98.8594px;
+    margin: 0 69.8759px;
+    z-index: 1;
+}
+
+.xiaomi-11t-pro .section19 .icon{
+    width: 89.2031px;
+    height: 89.2031px;
+    margin: 0;
+    z-index: 1;
+}
+
+.xiaomi-11t-pro .section19 .list2{
+    flex-wrap: wrap;
+    width: 1040.7px;
+    position: absolute;
+    top: 789.448px;
+    left: 431.148px;
+}
+
+.xiaomi-11t-pro .section19 .group{
+    width: 189.547px;
+    margin-left: 66.9024px;
+    margin-bottom: 57.2386px;
+}
+
+.xiaomi-11t-pro .section19 .group .f26{
+    margin-top: 11.1504px;
+}
+
+.xiaomi-11t-pro .section19 .icon2{
+    position: absolute;
+    top: 785.731px;
+    left: 1489.69px;
+    width: 191.031px;
+    height: 78.0469px;
+}
+
+.xiaomi-11t-pro .section20{
+    padding-top: 118.938px;
+}
+
+.xiaomi-11t-pro .section20 .text-container{
+    width: 951.5px;
+}
+
+.xiaomi-11t-pro .section20 .f72{
+    margin: 0 auto;
+    width: 799.844px;
+}
+
+.xiaomi-11t-pro .section20 .f26{
+    margin-top: 37.1681px;
+}
+
+.xiaomi-11t-pro .section20 .sec20-video{
+    overflow: hidden;
+    border-radius: 14.8672px;
+    width: 1040.7px;
+    height: 585.766px;
+    margin: 66.9024px auto 0;
+}
+
+.xiaomi-11t-pro .section21{
+    padding-top: 112.991px;
+    padding-bottom: 65.4156px;
+}
+
+.xiaomi-11t-pro .section21 .text-container{
+    width: 802.828px;
+}
+
+.xiaomi-11t-pro .section21 .img-box{
+    width: 100vw;
+    height: 1014.67px;
+    margin-top: 95.8933px;
+    position: relative;
+}
+
+.xiaomi-11t-pro .section21 .img{
+    width: 100vw;
+    height: 802.828px;
+}
+
+.xiaomi-11t-pro .section21 .list{
+    background-color: #141414;
+    box-sizing: border-box;
+    justify-content: center;
+    width: 1043.67px;
+    height: 371.672px;
+    padding-top: 81.0261px;
+    border-radius: 14.8672px;
+    position: absolute;
+    top: 643.006px;
+    left: 428.918px;
+}
+
+.xiaomi-11t-pro .section21 .item{
+    box-sizing: border-box;
+    padding: 0 52.0353px;
+    text-align: center;
+    width: 347.219px;
+}
+
+.xiaomi-11t-pro .section21 .list .xm-link{
+    transition-delay: 1.5s;
+}
+
+.xiaomi-11t-pro .section21 .f50{
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(90deg, #9cbdd1, #d8efef);
+    margin-bottom: 29.7344px;
+}
+
+.xiaomi-11t-pro .section21 .line{
+    background-color: rgba(255, 255, 255, .5);
+    height: 196.984px;
+    width: 1px;
+}
+
+.xiaomi-11t-pro .section21 .icon2{
+    width: 191.031px;
+    height: 78.0469px;
+    position: absolute;
+    top: 643.749px;
+    left: 1584.1px;
+}
+
+.xiaomi-11t-pro .section22{
+    height: 1152.2px;
+    padding-top: 54.2652px;
+}
+
+.xiaomi-11t-pro .section22 .text-container{
+    width: 951.5px;
+}
+
+.xiaomi-11t-pro .section22 .img{
+    height: 57.2344px;
+    width: 297.344px;
+    margin: 0 auto 24.5308px;
+}
+
+.xiaomi-11t-pro .section22 .fc6e{
+    color: #6e6e73;
+}
+
+.xiaomi-11t-pro .section22 .f26{
+    margin-top: 26.0176px;
+}
+
+.xiaomi-11t-pro .section23 .text-container{
+    width: 951.5px;
+}
+
+.xiaomi-11t-pro .section23 .img{
+    width: 1041.44px;
+    height: 594.688px;
+    margin: 96.6368px auto 0;
+}
+
+.xiaomi-11t-pro .section23 .f26{
+    margin-top: 33.4511px;
+}
+
+.xiaomi-11t-pro .section24{
+    padding-top: 110.76px; 
+    padding-bottom: 33.4511px;
+}
+
+.xiaomi-11t-pro .section24 .text-container{
+    width: 951.5px;
+}
+
+.xiaomi-11t-pro .section24 .scroll-slider{
+    margin: 168.743px auto 0;
+    position: relative;
+    width: 100vw;
+    height: 817.688px;
+}
+
+.xiaomi-11t-pro .section24 .xm-scroll .slick-slider .slick-list{
+    overflow: visible;
+}
+
+.xiaomi-11t-pro .section24 .item{
+    text-align: center;
+    width: 1040.7px;
+    position: absolute;
+    top: -117.451px;
+    left: 431.148px;
+}
+
+.xiaomi-11t-pro .section24 .img{
+    height: 817.688px;
+    width: 100vw;
+}
+
+.xiaomi-11t-pro .section24 .xm-scroll .slick-slider .slick-dots{
+    bottom: -29.7344px;
+}
+
+.xiaomi-11t-pro .section24 .slick-slider .slick-dots li button{
+    background-color: initial;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 10.4062px;
+    height: 10.4062px;
+}
+
+.xiaomi-11t-pro .section24 .slick-slider .slick-dots li.slick-active button{
+    background-color: #fff;
+}
+
+.xiaomi-11t-pro .section24 .f26{
+    margin-top: 14.8672px;
+}
+
+.xiaomi-11t-pro .section25{
+    overflow: visible;
+    padding-top: 431.148px;
+    height: 669.016px;
+}
+
+.xiaomi-11t-pro .section25 .text-container-left{
+    text-align: right;
+    margin-left: 951.5px;
+    width: 520.344px;
+}
+
+.xiaomi-11t-pro .section26{
+    overflow: auto;
+    padding: 63.929px 431.148px 80.2828px;
+}
+
+.xiaomi-11t-pro .section26 .f24{
+    color: #99999d;
+    line-height: 1.5;
+}
+
+/* Animation */
+.fade-in-bot{
+    animation: fade-in-bot 1.2s forwards;
+}
+
+@keyframes fade-in-bot {
+    0% {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        transform: translateY(100px)
+    }
+    100% {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        transform: translateY(0px)
+    }
+}
+
+/* nav bar */
+.xm-navbar{
+    background: #f5f5f5;
+    box-sizing: border-box;
+    min-width: 1226px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.xm-navbar-container{
+    align-items: center;
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1226px;
+}
+.xm-navbar-title{
+    align-items: baseline;
+    color: #333;
+    display: flex;
+    font-size: 24px;
+    line-height: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.xm-navbar-title h1{
+    display: inline-block;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+.xm-text{
+    display: inline-block;
+    white-space: break-spaces;
+}
+.xm-related{
+    color: #333;
+    flex: 1 1;
+    font-size: 24px;
+    line-height: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.xm-related-container{
+    align-items: center;
+    display: flex;
+}
+.xm-related-title{
+    color: #333;
+    display: flex;
+    flex: 1 1;
+    font-size: 24px;
+    line-height: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.xm-navbar-nav-item{
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 16px;
+}
+.xm-navbar-nav-item a{
+    color: #434a54;
+    font-size: 14px;
+}

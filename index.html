@@ -1,0 +1,455 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiaomi Global | Official</title>
+    <link rel='icon' href=''>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="nav_bar1.css">
+    <link rel="stylesheet" href="Home-styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id='root'>
+        <div class="global">
+            <div class="xm-layout product">
+                <div class="xm-page-area">
+
+                    <!-- Covid-19 Notification -->
+
+                    <mark class="covid-19 notification" id='covid'>
+                        <div class="covid-19-wrapper">
+                            <span class="covid-19-txt">Due to COVID-19, the ongoing health and containment emergency
+                                measures may cause service delays at logistic couriers and Xiaomi authorized service
+                                centers until further notice. Thank you for your understanding and support.</span>
+                            <button class='covid-19-close-icon' onclick="close_covid()"><i
+                                    class="fa fa-close"></i></button>
+                        </div>
+                    </mark>
+
+                    <!-- Navigation Bar -->
+
+                    <header class='nav-header'>
+
+                        <!-- Black Navigation Bar -->
+
+                        <div class="black-nav">
+                            <div class="container">
+                                <ul class='black-nav-left'>
+                                    <li class='black-nav-item'><a href="" target="_self">INTERNATIONAL</a></li>
+                                    <li class='black-nav-item'><a href="" target="_self">MI COMMUNITY</a></li>
+                                    <li class='black-nav-item'><a href="" target="_self">MIUI</a></li>
+                                    <li class='black-nav-item'><a href="" target="_self">XIAOMI STUDIOS</a></li>
+                                </ul>
+                                <div class="black-nav-right">
+                                    <ul class='sign-group'>
+                                        <li class='black-nav-item'><a href="" target="_self">Sign in</a></li>
+                                        <li class='black-nav-item'><a href="" target="_self">Sign up</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Navigation Bar -->
+                        <div class="nav-container">
+                            <div class="nav-wrapper" id='nav-wrapper' onmouseleave="collapse()">
+                                <div class="nav container">
+                                    <div class="nav-option nav-left">
+                                        <div class="logo">
+                                            <div class="logo-wrapper">
+                                                <a href=""><img src="./pics/mi-logo.svg"></a>
+                                            </div>
+                                        </div>
+                                        <div class="nav-group">
+                                            <div class="nav-item">
+                                                <a class='nav-item-title' id="nav-item-title" href=''
+                                                    onmouseenter="expand(1)">Xiaomi
+                                                    Phones</a>
+                                            </div>
+                                            <div class="nav-item">
+                                                <a class='nav-item-title' id="nav-item-title" href=''
+                                                    onmouseenter="expand(2)">POCOPHONE</a>
+                                            </div>
+                                            <div class="nav-item">
+                                                <a class='nav-item-title' id="nav-item-title" href=''
+                                                    onmouseenter="expand(3)">Redmi
+                                                    Phones</a>
+                                            </div>
+                                            <div class="nav-item">
+                                                <a class='nav-item-title' id="nav-item-title" href=''
+                                                    onmouseenter="expand(4)">Mi TV</a>
+                                            </div>
+                                            <div class="nav-item">
+                                                <a class='nav-item-title' id="nav-item-title" href=''
+                                                    onmouseenter="expand(5)">Smart
+                                                    Devices</a>
+                                            </div>
+                                            <div class="nav-item">
+                                                <a class='nav-item-title' id="nav-item-title" href=''
+                                                    onmouseenter="collapse2()">All
+                                                    Products</a>
+                                            </div>
+                                            <div class="nav-item">
+                                                <a class='nav-item-title' id="nav-item-title" href=''
+                                                    onmouseenter="collapse2()">Product
+                                                    Authentication</a>
+                                            </div>
+                                            <div class="nav-item">
+                                                <a class='nav-item-title' id="nav-item-title" href=''
+                                                    onmouseenter="collapse2()">Discover</a>
+                                            </div>
+                                            <div class="nav-line" id='line'>
+                                                <div class='nav-line-wrap' id="line-wrap">
+                                                    <ul class='nav-item_list-group' id='nav-item_list-group'></ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </header>
+
+
+
+                    <!-- Main Page -->
+                    <!-- Banner -->
+                    <main class='overview-con'>
+                        <div class="slideshow-container">
+                            <a onclick="plusSlides(-1)">
+                                <div class="prev">&#10094;</div>
+                            </a>
+                            <a onclick="plusSlides(1)">
+                                <div class="next">&#10095;</div>
+                            </a>
+                            <div style="position: absolute; bottom:10px; width:100%; text-align: center;">
+                                <a onclick="currentSlide(1)"><span class="dot"></span></a>
+                                <a onclick="currentSlide(2)"><span class="dot"></span></a>
+                                <a onclick="currentSlide(3)"><span class="dot"></span></a>
+                                <a onclick="currentSlide(4)"><span class="dot"></span></a>
+                                <a onclick="currentSlide(0)"><span class="dot"></span></a>
+                            </div>
+                            <div class="mySlides">
+                                <a href="xiaomi11T-Pro.html"><img src="./pics/home/11t-pro-banner.jpg"
+                                        style="width:100%"></a>
+                            </div>
+                            <div class="mySlides">
+                                <a href="xiaomi11T.html"><img src="./pics/home/11t-banner.jpg" style="width:100%"></a>
+                            </div>
+                            <div class="mySlides">
+                                <a href="xiaomi11Lite.html"><img src="./pics/home/11lite-banner.jpg" style="width:100%"></a>
+                            </div>
+                            <div class="mySlides">
+                                <a href="Redmi10.html"><img src="./pics/home/redmi10-banner.jpg" style="width:100%"></a>
+                            </div>
+                            <div class="mySlides">
+                                <a href="redmi-note8.html"><img src="./pics/home/redmi-note8-banner.jpg"
+                                        style="width:100%"></a>
+                            </div>
+                        </div>
+                        <!-- Product promo -->
+                        <div style="width:100%; text-align: center; display: inline-block; justify-content: center; margin:7px; margin-bottom: 0px; background-color: #F5F5F5;">
+                            <div style="padding-top: 20px;">
+                                <img class="shaddown" style="margin:7px;"
+                                    src="./pics/home/redmi-note10s.jpg">
+                                <img class="shaddown" style="margin:7px;"
+                                    src="./pics/home/redmi-note10pro.jpg">
+                                <img class="shaddown" style="margin:7px;"
+                                    src="./pics/home/redmi-note10s.jpg">
+                            </div>
+                            <img src="./pics/home/discover-banner-2.jpg" style="margin-top: 20px;" class="shaddown">
+                            <!-- Star product -->
+                            <div class="txtbox">
+                                <span class="lines"></span>
+                                <h2 class="title">Star Products</h2>
+                                <span class="lines"></span>
+                            </div>
+
+                            <div style="display:inline-block; text-align: center; justify-items: center; min-width: 40rem;">
+                                <div class="row" style="width: 100%; justify-content: center; margin-left: 5%;">
+                                    <div class="shad" style="display: inline-block;">
+                                        <img src="./pics/home/xiaomi-pad-5.jpg">
+                                    </div>
+                                    <div style="display: inline-block; width: 50%;">
+                                        <img class="shad" 
+                                            src="./pics/home/redmi-watch.jpg">
+                                        <img class="shad" 
+                                            src="./pics/home/Redmi-Buds-3.jpg">
+                                        <img class="shad" style="margin-top: 2px;" src="./pics/home/xiaomi-tv.jpg">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <br>
+
+                            <!-- videos -->
+                            <div class="txtbox">
+                                <span class="lines"></span>
+                                <h2 class="title">VIDEOS</h2>
+                                <span class="lines"></span>
+                            </div>
+                            <div style="width: 100%; display: flex; justify-content: center; margin-bottom: 0px;">
+                                <div class="thumbnail1">
+                                    <div class="dota">
+                                        <br>
+                                        <div class="arrow-right"></div>
+                                    </div>
+                                    <p style="color: white; text-align: center;">Meet Xiaomi 11T Pro | Key Features</p>
+                                </div>
+                                <div class="thumbnail2">
+                                    <div class="dota">
+                                        <br>
+                                        <div class="arrow-right"></div>
+                                    </div>
+                                    <p style="color: white; text-align: center;">Own Your Style | Xiaomi 11 Lite 5G NE
+                                    </p>
+                                </div>
+                                <div class="thumbnail3">
+                                    <div class="dota">
+                                        <br>
+                                        <div class="arrow-right"></div>
+                                    </div>
+                                    <p style="color: white; text-align: center;">Xiaomi Pad 5 | Play Hard Work Smart</p>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer" style="background-color: #F5F5F5; padding-top: 100px;">
+        <div class="footer-customer-relationship">
+            <div class="container">
+                <div class="row">
+                    <div class="customer-relationship span16">
+                        <div class="introduction">
+                            <h3>Let's stay in touch</h3>
+                            <p>Get updates on sales specials and more</p>
+                        </div>
+                        <div class="customer-reaction">
+                            <div class="customer-email">
+                                <div>
+                                    <input type="text" name="email" placeholder="Enter Email Address">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="customer-relationship span8" style="margin-left: 20%;">
+                        <div class="introduction">
+                            <h3>Follow Mi</h3>
+                            <p>We want to hear from you!</p>
+                        </div>
+                        <div class="customer-reaction">
+                            <div class="social-media">
+                                <img src="./pics/footer/facebook.png" class="social-media-item">
+                                <img src="./pics/footer/youtube.png" class="social-media-item">
+                                <img src="./pics/footer/ins.png" class="social-media-item">
+                                <img src="./pics/footer/twitter.png" class="social-media-item">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-nav">
+                <div class="container">
+                    <dl class="column-wrapper">
+                        <dt>SHOP AND LEARN</dt>
+                        <dd class="column-item">Xiaomi 11T Pro</dd><br>
+                        <dd class="column-item">Xiaomi 11 Lite 5G NE</dd><br>
+                        <dd class="column-item">Xiaomi Pad 5</dd><br>
+                        <dd class="column-item">Redmi Buds 3 Pro</dd><br>
+                        <dd class="column-item">Mi Smart Band 6</dd>
+                    </dl>
+                    <dl class="column-wrapper">
+                        <dt>SUPPORT</dt>
+                        <dd class="column-item">Contact us</dd><br>
+                        <dd class="column-item">User Guide</dd><br>
+                        <dd class="column-item">Warranty</dd><br>
+                        <dd class="column-item">EU Declaration of Conformity</dd><br>
+                        <dd class="column-item">Scooter Safety Notice</dd><br>
+                        <dd class="column-item">Android Enterprise Recommended</dd>
+                    </dl>
+                    <dl class="column-wrapper">
+                        <dt>CONTACT US</dt>
+                        <dd class="column-item">Facebook</dd><br>
+                        <dd class="column-item">Youtube</dd><br>
+                        <dd class="column-item">Instagram</dd><br>
+                        <dd class="column-item">Twitter</dd>
+                    </dl>
+                    <dl class="column-wrapper">
+                        <dt>ABOUT US</dt>
+                        <dd class="column-item">Xiaomi</dd><br>
+                        <dd class="column-item">Leadership Team</dd><br>
+                        <dd class="column-item">Privacy Policy</dd><br>
+                        <dd class="column-item">Integrity & Compliance</dd><br>
+                        <dd class="column-item">Press & Media</dd><br>
+                        <dd class="column-item">Xiaomi Blog</dd><br>
+                        <dd class="column-item">Investor Relations</dd><br>
+                        <dd class="column-item">Sustainability</dd><br>
+                        <dd class="column-item">Trust Center</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container" style="border-top: 1px solid #424242;">
+                    <div class="copyright">Copyright © 2010 - 2021 Xiaomi. All Rights Reserved</div>
+                    <span class="cookie-policy" style="border-left: 1px solid #424242;">Cookie Settings Cookie
+                        policy</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let count = 0;
+        function close_covid() {
+            document.getElementById('covid').style.height = "0";
+        }
+        function collapse() {
+            document.getElementById('nav-wrapper').classList.remove("expand");
+            document.getElementById('nav-wrapper').style.backgroundColor = "transparent";
+            document.getElementById('line').style.height = "0";
+            var x = document.querySelectorAll('#nav-item-title');
+            for (var i = 0; i < x.length; i++) {
+                x[i].style.color = "white";
+            }
+        }
+        function collapse2() {
+            document.getElementById('nav-wrapper').style.backgroundColor = 'transparent';
+            document.getElementById('nav-wrapper').classList.remove("expand");
+            document.getElementById('line').style.height = "0";
+            var x = document.querySelectorAll('#nav-item-title');
+            for (var i = 0; i < x.length; i++) {
+                x[i].style.color = "white";
+
+            }
+        }
+        function expand(num) {
+            document.getElementById('nav-wrapper').classList.add("expand");
+            document.getElementById('nav-wrapper').style.backgroundColor = "white";
+            var x = document.querySelectorAll('#nav-item-title');
+            for (var i = 0; i < x.length; i++) {
+                x[i].style.color = "black";
+            }
+            document.getElementById('line').style.height = "250px";
+            let requestURL = 'nav_bar.json';
+            let request = new XMLHttpRequest();
+            request.onreadystatechange = function () {
+                if (request.readyState == 4 && request.status == 200) {
+                    dataReportStatus(JSON.parse(request.responseText));
+                }
+            };
+            request.open("GET", requestURL, true);
+            request.send();
+
+            function dataReportStatus(data) {
+                if (count > 0) {
+                    for (let i = 0; i < count; i++) {
+                        document.getElementById("nav-item_list-group").removeChild(document.getElementById('nav-item_list'));
+                    }
+                    count = 0;
+                }
+                if (num == 1) {
+                    for (let i = 0; i < data.phone.length; i++) {
+                        document.getElementById("nav-item_list-group").innerHTML += "<li class='nav-item_list' id='nav-item_list'><a class='nav-item_list-img' href='" + data.phone[i].href + "'><img src='" + data.phone[i].src + "' alt='" + data.phone[i].product + "'></a><a class='nav-item_list-title'>" + data.phone[i].product + "</a><span class='nav-item_list-price'></span></li>";
+                        count++;
+                    }
+                }
+                else if (num == 2) {
+                    for (let i = 0; i < data.pocophone.length; i++) {
+                        document.getElementById("nav-item_list-group").innerHTML += "<li class='nav-item_list' id='nav-item_list'><a class='nav-item_list-img' href='" + data.pocophone[i].href + "'><img src='" + data.pocophone[i].src + "' alt='" + data.pocophone[i].product + "'></a><a class='nav-item_list-title'>" + data.pocophone[i].product + "</a><span class='nav-item_list-price'></span></li>";
+                        count++;
+                    }
+                }
+                else if (num == 3) {
+                    for (let i = 0; i < data.redmiphones.length; i++) {
+                        document.getElementById("nav-item_list-group").innerHTML += "<li class='nav-item_list' id='nav-item_list'><a class='nav-item_list-img' href='" + data.redmiphones[i].href + "'><img src='" + data.redmiphones[i].src + "' alt='" + data.redmiphones[i].product + "'></a><a class='nav-item_list-title'>" + data.redmiphones[i].product + "</a><span class='nav-item_list-price'></span></li>";
+                        count++;
+                    }
+                }
+                else if (num == 4) {
+                    for (let i = 0; i < data.mitv.length; i++) {
+                        document.getElementById("nav-item_list-group").innerHTML += "<li class='nav-item_list' id='nav-item_list'><a class='nav-item_list-img' href='" + data.mitv[i].href + "'><img src='" + data.mitv[i].src + "' alt='" + data.mitv[i].product + "'></a><a class='nav-item_list-title'>" + data.mitv[i].product + "</a><span class='nav-item_list-price'></span></li>";
+                        count++;
+                    }
+                }
+                else if (num == 5) {
+                    for (let i = 0; i < data.smartdevices.length; i++) {
+                        document.getElementById("nav-item_list-group").innerHTML += "<li class='nav-item_list' id='nav-item_list'><a class='nav-item_list-img' href='" + data.smartdevices[i].href + "'><img src='" + data.smartdevices[i].src + "' alt='" + data.smartdevices[i].product + "'></a><a class='nav-item_list-title'>" + data.smartdevices[i].product + "</a><span class='nav-item_list-price'></span></li>";
+                        count++;
+                    }
+                }
+            }
+        }
+    </script>
+    <script>
+        var slideIndex = 0;
+        showSlides2(slideIndex);
+
+        function showSlides2(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+
+            setTimeout(showSlides2, 10000);
+        }
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1;
+            }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+
+    </script>
+</body>
+
+</html>

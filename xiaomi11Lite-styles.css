@@ -1,0 +1,1007 @@
+.f72{
+    font-size: 53.5219px;
+    line-height: 64.2263px;
+}
+
+.f70{
+    font-size: 52.0353px;
+    line-height: 66.9024px;
+}
+
+.f64{
+    font-size: 47.575px;
+    line-height: 60.2121px;
+}
+
+.f60{
+    font-size: 44.6016px;
+    line-height: 53.5219px;
+}
+
+.f54{
+    font-size: 40.1415px;
+    line-height: 48.1698px;
+}
+
+.f50{
+    font-size: 37.1681px;
+    line-height: 62.4422px;
+}
+
+.f40{
+    font-size: 29.7344px;
+    line-height: 35.6813px;
+}
+
+.f32{
+    font-size: 23.7875px;
+    line-height: 30.9236px;
+}
+
+.f30{
+    font-size: 22.3009px;
+    line-height: 26.7611px;
+}
+
+.f24{
+    font-size: 17.8406px;
+    line-height: 25.2743px;
+}
+
+.f20{
+    font-size: 15px;
+    line-height: 24.75px;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.near-black{
+    color: #191919;
+}
+
+.white{
+    color: #fff
+}
+
+.main-con1{
+    background-image: url(./pics/xm11Lite/header-bg.jpg);
+    background-size: cover;
+    height: 944.062px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-con1 .productName{
+    width: 816.938px;
+    height: 56.4844px;
+}
+
+.main-con1 .text.f50{
+    padding-top: 120.424px;
+    padding-bottom: 26.0176px;
+}
+
+.main-con1 .text.f32{
+    margin-top: 29.7344px;
+}
+
+.main-con2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 195.504px 0px 108.531px;
+}
+
+.main-con3{
+    background-image: url(./pics/xm11Lite/section_03.jpg);
+    background-size: cover;
+    height: 639.281px;
+    display: flex;
+    align-items: center;
+}
+
+.main-con3 .left,
+.main-con3 .right{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 22.3009px;
+    flex: 1 1;
+}
+
+.main-con3 .left .text.f72{
+    width: 245.297px;
+}
+
+.main-con3 .line{
+    background-color: #191919;
+    display: block;
+    height: 1px;
+    margin: 14.8672px 0 17.8406px;
+    width: 19.3125px;
+}
+
+.main-con3 .left .left-txt2,
+.main-con3 .right .right-txt2{
+    margin-bottom: 37.1681px;
+}
+
+.main-con4{
+    background-image: url(./pics/xm11Lite/section_04.jpg);
+    background-size: contain;
+    height: 1763.98px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.main-con4 .text-box{
+    position: absolute;
+    top: 215.574px;
+    left: 1082.33px;
+}
+
+.main-con4 .text.f70{
+    margin-bottom: 64.6723px;
+    display: block;
+}
+
+.main-con4 .item{
+    display: flex;
+    flex-direction: column;
+    width: 468.312px;
+    margin-bottom: 35.6813px;
+}
+
+.main-con4 .item .text.f40{
+    margin-bottom: 10.4071px;
+}
+
+.main-con4 .text-box2{
+    position: absolute;
+    top: 1271.14px;
+    left: 344.175px;
+}
+
+.main-con5{
+    position: relative;
+    height: 892.766px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.main-con5 .text-box{
+    display: block;
+    position: absolute;
+    top: 333.025px;
+    left: 1193.84px;
+    width: 408.844px;
+}
+
+.main-con5 .text-box .color{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.main-con5 .text-box .color .text.f24{
+    margin-top: 10px;
+}
+
+.main-con5 .text-box .color-slide{
+    display: flex;
+    margin-top: 50px;
+}
+
+.main-con5 .text-box .color-slide .slide-item{
+    margin: 0 5px;
+    overflow: hidden;
+}
+
+.main-con5 .text-box .color-slide .slide-item:first-child{
+    margin-left: 0;
+}
+
+.main-con5 .text-box .color-slide li>button{
+    background-color: initial;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    height: 23.0312px;
+    width: 23.0312px;
+    border-radius: 50%;
+    padding: 0;
+    text-indent: -9999px;
+    border: 0;
+    display: block;
+    background-size: 15.6105px 15.6105px;
+    overflow: hidden;
+}
+
+.main-con5 .text-box .color-slide li:first-child>button:focus{
+    outline: 0;
+}
+
+.main-con5 .text-box .color-slide li:nth-child(2)>button:focus{
+    outline: 0;
+}
+
+.main-con5 .text-box .color-slide li:nth-child(3)>button:focus{
+    outline: 0;
+}
+
+.main-con5 .text-box .color-slide li:nth-child(4)>button:focus{
+    outline: 0;
+}
+
+.main-con5 .text-box .color-slide li.dot-active:first-child>button{
+    outline: 0;
+    border: 1px solid #E5E6E8;
+}
+
+.main-con5 .text-box .color-slide li.dot-active:nth-child(2)>button{
+    outline: 0;
+    border: 1px solid #B3BFE2;
+}
+
+.main-con5 .text-box .color-slide li.dot-active:nth-child(3)>button{
+    outline: 0;
+    border: 1px solid #F4CABE;
+}
+
+.main-con5 .text-box .color-slide li.dot-active:nth-child(4)>button{
+    outline: 0;
+    border: 1px solid #696A77;
+}
+
+.main-con5 .text-box .color-slide li:first-child button{
+    background-image: url(./pics/xm11Lite/section-05-btn-01.png);
+}
+
+.main-con5 .text-box .color-slide li:nth-child(2) button{
+    background-image: url(./pics/xm11Lite/section-05-btn-02.png);
+}
+
+.main-con5 .text-box .color-slide li:nth-child(3) button{
+    background-image: url(./pics/xm11Lite/section-05-btn-03.png);
+}
+
+.main-con5 .text-box .color-slide li:nth-child(4) button{
+    background-image: url(./pics/xm11Lite/section-05-btn-04.png);
+}
+
+.main-con6{
+    background-image: url(./pics/xm11Lite/section_06.jpg);
+    background-size: cover;
+    height: 917.297px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 156.106px;
+}
+
+.main-con6 .text-box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-con6 .text-box .text.f24{
+    margin-top: 8.92031px;
+}
+
+.main-con6 .detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 705.448px;
+}
+
+.main-con6 .detail .left,
+.main-con6 .detail .right{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+}
+
+.main-con6 .detail .line{
+    background-color: rgba(200, 200, 200, .5);
+    height: 97.375px;
+    margin: 0 95.15px;
+    width: 1.48438px;
+}
+
+.main-con6 .detail .right .text.f40{
+    width: 345.844px;
+}
+
+.main-con6 .detail .left .text.f24,
+.main-con6 .detail .right .text.f24{
+    margin-top: 8.92031px;
+    width: 296.328px;
+}
+
+.main-con7 .sec7{
+    height: 1275px;
+    position: relative;
+    width: 100%;
+}
+
+.main-con7 .top{
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 210px;
+    opacity: 0;
+}
+
+.main-con7 .top .text.f70{
+    display: block;
+    line-height: 57.75px;
+    margin-top: 37.5001px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 750px;
+}
+
+.main-con7 .top .text.f24{
+    display: block;
+    line-height: 23.25px;
+    text-align: center;
+    width: 750px;
+}
+
+.main-con7 .img-box{
+    position: absolute;
+    top: 0;
+    height: 864.734px;
+    width: 100%;
+}
+
+.main-con7 .sec7-pic{
+    display: block;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%) scale(1.01);
+    width: 100%;
+    z-index: 1;
+}
+
+.main-con7 .sec7-phone{
+    display: block;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 951.5px;
+    z-index: 2;
+    opacity: 0;
+}
+
+.main-con7 .detail{
+    color: #191919;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 585px 396.5px 0px;
+    opacity: 0;
+    width: 1110px;
+}
+
+.main-con7 .detail .item{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 106.5px;
+    width: 349.5px;
+}
+
+.main-con7 .detail .item.it1,
+.main-con7 .detail .item.it2,
+.main-con7 .detail .item.it3{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.main-con7 .detail .item.it4 .text.f40,
+.main-con7 .detail .item.it5 .text.f40,
+.main-con7 .detail .item.it6 .text.f40{
+    margin-top: 42.75px;
+}
+
+.main-con7 .detail .item.it2,
+.main-con7 .detail .item.it5{
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.main-con7 .detail .item.it3{
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.main-con7 .detail .item .text.f40{
+    margin-top: -6px;
+}
+
+.main-con7 .detail .item .text.f24{
+    margin-top: 9px;
+}
+
+.main-con8{
+    background-image: url(./pics/xm11Lite/section_09.jpg);
+    background-size: cover;
+    height: 970.078px;
+    padding-left: 401.414px;
+    padding-top: 252.742px;
+    position: relative;
+    display: block;
+}
+
+.main-con8 .text-box2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 59.4688px;
+}
+
+.main-con8 .text-box2 .text.f60{
+    margin-bottom: 5.94688px;
+}
+
+.main-con8 .text-box2 .line{
+    background-color: rgba(0, 0, 0, .2);
+    height: 1px;
+    margin: 43.1149px 0 37.1681px;
+    width: 359.781px;
+}
+
+.main-con9{
+    background-color: #d0daf4;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 703.203px;
+    padding-top: 163.539px;
+    position: relative;
+}
+
+.main-con9 .text-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-con9 .text-box .text.f70{
+    margin-bottom: 25.2743px;
+}
+
+.main-con9 .feature{
+    display: flex;
+    position: absolute;
+    top: 344.919px;
+}
+
+.main-con9 .feature .feature-item{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    align-items: center;
+    width: 436.344px;
+    height: 211.109px;
+    margin: 0 11.1504px;
+}
+
+.main-con9 .feature .feature-item .feature-icon{
+    width: 59.4688px;
+    height: 59.4688px;
+    margin-top: 46.8317px;
+    margin-bottom: 25.2743px;
+}
+
+.main-con10{
+    background-image: url(./pics/xm11Lite/section_11.jpg);
+    background-size: cover;
+    height: 1031.78px;
+    position: relative;
+}
+
+.main-con10 .text-box{
+    position: absolute;
+    top: 334.512px;
+    left: 251.256px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-con10 .text-box .text.f70{
+    margin-bottom: 31.9645px;
+}
+
+.main-con10 .text-box2{
+    position: absolute;
+    top: 223.008px;
+    left: 1321.69px;
+}
+
+.main-con10 .text-box2 .item{
+    display: flex;
+    height: 137.516px;
+}
+
+.main-con10 .text-box2 .item img{
+    margin-right: 29.7344px;
+    margin-top: 8.92031px;
+    height: 60.2031px;
+    width: 60.2031px;
+}
+
+.main-con10 .text-box2 .item-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-con11{
+    height: 1422.78px;
+    overflow: inherit;
+    background-color: #fff;
+}
+
+.main-con11 .img-box{
+    display: flex;
+    flex-wrap: wrap;
+    height: 1204.23px;
+    justify-content: space-between;
+    margin: -239.362px 245.312px;
+    width: 1412.38px;
+}
+
+.main-con11 .img-box .img1{
+    width: 1412.38px;
+    height: 594.688px;
+    margin-bottom: 14.8672px;
+    z-index: 1;
+}
+
+.main-con11 .img-box .img2{
+    width: 856.344px;
+    height: 594.688px;
+}
+
+.main-con11 .img-box .img3{
+    width: 541.156px;
+    height: 594.688px;
+}
+
+.main-con12{
+    background-color: #f9fafb;
+    height: 1170.78px;
+    position: relative;
+}
+
+.main-con12 .left{
+    position: absolute;
+    top: 282.476px;
+    left: 313.698px;
+}
+
+.main-con12 .left .text-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-con12 .left .text-box .text.f70{
+    margin-bottom: 4.46025px;
+    width: 520.344px;
+}
+
+.main-con12 .feature{
+    margin-top: 81.7696px;
+    width: 416.281px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-con12 .feature .item{
+    display: flex;
+    flex-direction: column;
+    width: 205.906px;
+    height: 148.672px;
+}
+
+.main-con12 .feature .item .item-icon1{
+    width: 40.875px;
+    height: 40.875px;
+    margin-bottom: 18.5839px;
+}
+
+.main-con12 .feature .item .item-icon2{
+    width: 48.3125px;
+    height: 48.3125px;
+    margin-bottom: 11.5839px;
+}
+
+.main-con12 .feature .item .item-icon3{
+    width: 48.3125px;
+    height: 31.9531px;
+    margin-bottom: 18.5839px;
+}
+
+.main-con12 .feature .item .item-icon4{
+    width: 49.0469px;
+    height: 35.6719px;
+    margin-bottom: 14.5839px;
+}
+
+.main-con12 .feature .item .item-icon5{
+    width: 45.3438px;
+    height: 37.9062px;
+    margin-bottom: 14.5839px;
+}
+
+.main-con12 .feature .item .item-icon6{
+    width: 48.3125px;
+    height: 37.1562px;
+    margin-bottom: 14.5839px;
+}
+
+.main-con12 .right{
+    position: absolute;
+    top: 219.291px;
+    left: 996.845px;
+}
+
+.main-con12 .right .video .poster{
+    height: 750.047px;
+    width: 584.266px;
+}
+
+.main-con12 .right .video .play-btn{
+    height: 83.9844px;
+    width: 83.9844px;
+    position: absolute;
+    top: 337.016px;
+    left: 252.125px;
+    cursor: pointer;
+}
+
+.main-con12 .right .text.f24{
+    display: inline-block;
+    margin-top: 29.7344px;
+}
+
+.main-con13{
+    background-image: url(./pics/xm11Lite/section_14.jpg);
+    background-size: cover;
+    height: 884.594px;
+    padding-top: 347.149px;
+    padding-left: 1170.79px;
+}
+
+.main-con13 .text-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-con13 .text-box .text.f70{
+    margin-bottom: 16.354px;
+}
+
+.main-con14{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 1355.88px;
+    padding-top: 185.84px;
+    position: relative;
+    text-align: center;
+    background-color: #fff;
+}
+
+.main-con14 .text.f64{
+    margin-bottom: 17.8406px;
+}
+
+.main-con14 .img14{
+    margin-top: 104.07px;
+    height: 594.688px;
+    width: 1412.38px;
+}
+
+.main-con14 .option .option-item{
+    display: flex;
+    cursor: pointer;
+}
+
+.main-con14 .option .option-item .btn1,
+.main-con14 .option .option-item .btn2,
+.main-con14 .option .option-item .btn3{
+    width: 32.7031px;
+    height: 24.5156px;
+    margin-right: 12.6371px;
+    margin-top: 2.97344px;
+}
+
+.main-con14 .option{
+    margin: 71.3625px 615.5px 0px;
+    display: flex;
+    justify-content: space-between;
+    margin: 71.3625px auto 0;
+    padding: 0 0 29.7344px;
+    width: 671.984px;
+}
+
+.main-con14 .pin-line{
+    background-color: rgba(0, 0, 0, .2);
+    height: 1px;
+    width: 675.328px;
+    position: relative;
+}
+
+.main-con14 .color-line{
+    background-color: #1a1a1a;
+    height: 2.21875px;
+    width: 130.641px;
+    position: absolute;
+    top: 0;
+}
+
+.main-con14 .color-line.pos1{
+    left: 0;
+}
+
+.main-con14 .color-line.pos2{
+    left: 258.972px;
+}
+
+.main-con14 .color-line.pos3{
+    left: unset;
+    right: 0;
+}
+
+.main-con15{
+    background-image: url(./pics/xm11Lite/section_16.jpg);
+    background-size: cover;
+    height: 877.156px;
+    padding-top: 148.672px;
+}
+
+.main-con15 .text-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-con15 .text-box .text.f64{
+    margin-bottom: 29.7344px;
+}
+
+.main-con16 .top{
+    background-color: #fff;
+    height: 873px;
+    align-items: center;
+    padding-top: 202.5px;
+    position: relative;
+}
+
+.main-con16 .top .text-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-con16 .top .text-box .text.f70{
+    margin-bottom: 18.75px;
+}
+
+.main-con16 .top .top-pic{
+    width: 1412.38px;
+    height: 594.688px;
+    position: absolute;
+    top: 418.511px;
+    left: 245.309px;
+    z-index: 1;
+}
+
+.main-con16 .bottom{
+    background-color: #1a1a1a;
+    height: 468.312px;
+    position: relative;
+}
+
+.main-con16 .bottom .text-box,
+.main-con16 .bottom .text-box2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 264.636px;
+}
+
+.main-con16 .bottom .text-box{
+    left: 446.016px;
+}
+
+.main-con16 .bottom .text-box2{
+    left: 1064.49px;
+}
+
+.main-con16 .bottom .text.f54{
+    margin-bottom: 10.4071px;
+}
+
+.main-con17{
+    position: relative;
+}
+
+.main-con17 .top{
+    background-image: url(./pics/xm11Lite/section_18.png);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 100%;
+    background-size: 100% 851.89px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 1248.84px;
+    padding-top: 173.946px;
+    position: relative;
+}
+
+.main-con17 .top .text-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-con17 .top .text-box .text.f70{
+    margin-bottom: 26.7609px;
+}
+
+.main-con17 .bottom .text-box,
+.main-con17 .bottom .text-box2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 925.482px;
+}
+
+.main-con17 .bottom .text.f54{
+    margin-bottom: 13.3806px;
+}
+
+.main-con17 .bottom .text-box{
+    left: 297.344px;
+}
+
+.main-con17 .bottom .text-box2{
+    left: 1196.81px;
+}
+
+.main-con18{
+    align-items: center;
+    background-color: #fbfbfb;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    height: 1480.76px;
+    padding-top: 163.539px;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-con18 .text-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-con18 .feature{
+    display: flex;
+    width: 1546.19px;
+    height: 323.359px;
+    justify-content: center;
+    margin-top: 108.531px;
+}
+
+.main-con18 .feature .item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 0 44.6016px;
+    width: 297.344px;
+}
+
+.main-con18 .feature .item .icon1{
+    width: 98.1094px;
+    height: 40.1406px;
+    margin-bottom: 39.398px;
+}
+
+.main-con18 .feature .item .icon2{
+    width: 55px;
+    height: 51.2812px;
+    margin-bottom: 29.398px;
+}
+
+.main-con18 .feature .item .icon3{
+    width: 55.75px;
+    height: 46.8281px;
+    margin-bottom: 35.398px;
+}
+
+.main-con18 .feature .item .icon4{
+    width: 82.5px;
+    height: 39.3906px;
+    margin-bottom: 43.398px;
+}
+
+.main-con18 .feature .item .text.f32{
+    margin-bottom: 11.8938px;
+}
+
+.main-con18 .img-box{
+    display: flex;
+    justify-content: space-between;
+    width: 1781.08px;
+}
+
+.main-con18 .img-box .sec19img{
+    height: 655.641px;
+    width: 427.422px;
+    transition: all 0.8s ease .3s;
+}
+
+.main-con18 .img-box .sec19img.img1{
+    transform: translate(50%, 0);
+    opacity: 0;
+}
+
+.main-con18 .img-box .sec19img.img2{
+    transform: translate(50%, 0);
+    opacity: 0;
+}
+
+.main-con18 .img-box .sec19img.img3{
+    transform: translate(50%, 0);
+    opacity: 0;
+}
+
+.main-con18 .img-box .sec19img.img4{
+    transform: translate(50%, 0);
+    opacity: 0;
+}
+
+.main-con19{
+    background-image: url(./pics/xm11Lite/see-pic.jpg);
+    background-size: contain;
+    height: 315px;
+    position: relative;
+    overflow: hidden;   
+}
+
+.main-con19 .link{
+    position: absolute;
+    top: 141.75px;
+    left: 384.75px;
+}
+
+.main-con19 .link:hover{
+    color: #191919;
+}
+
+.main-con20{
+    background-color: #fff;
+}
+
+.main-con20 .text-box .text{
+    color: #595959;
+    display: block;
+    margin: 0 auto;
+    width: 1425px;
+    padding: 56.4953px 0px 53.5219px;
+}

@@ -1,0 +1,156 @@
+{
+    "phone":[
+            {
+                "src":"./pics/xm-phones/11TPro.png",
+                "product":"Xiaomi 11T Pro",
+                "href":"./xiaomi11T-Pro.html"
+            },
+            {
+                "src":"./pics/xm-phones/11T.png",
+                "product":"Xiaomi 11T",
+                "href":"./xiaomi11T.html"
+            },
+            {
+                "src":"./pics/xm-phones/11Lite5GNE.png",
+                "product":"Xiaomi 11 Lite 5G NE",
+                "href":"./xiaomi11Lite.html"
+            },
+            {
+                "src":"./pics/xm-phones/11Ultra.png",
+                "product":"Mi 11 Ultra",
+                "href":""
+            },
+            {
+                "src":"./pics/xm-phones/11i.png",
+                "product":"Mi 11i",
+                "href":""
+            },
+            {
+                "src":"./pics/more.png",
+                "product":"More",
+                "href":""
+            }
+        ]
+    ,
+    "pocophone":[
+            {
+                "src":"./pics/poco-phones/PocoM3.png",
+                "product":"POCO M3",
+                "href":""
+            },
+            {
+                "src":"./pics/poco-phones/PocoX3NFC.png",
+                "product":"POCO X3 NFC",
+                "href":""
+            },
+            {
+                "src":"./pics/poco-phones/PocoF2Pro.png",
+                "product":"POCO F2 Pro",
+                "href":""
+            },
+            {
+                "src":"./pics/more.png",
+                "product":"More",
+                "href":""
+            }
+        ]
+    ,
+    "redmiphones":[
+            {
+                "src":"./pics/rm-phones/Redmi10.png",
+                "product":"Redmi 10",
+                "href":"./Redmi10.html"
+            },
+            {
+                "src":"./pics/rm-phones/RedmiNote82021.jpg",
+                "product":"Redmi Note 8 2021",
+                "href":"./redmi-note8.html"
+            },
+            {
+                "src":"./pics/rm-phones/RedmiNote10s.png",
+                "product":"Redmi Note 10S",
+                "href":""
+            },
+            {
+                "src":"./pics/rm-phones/RedmiNote105G.png",
+                "product":"Redmi Note 10 5G",
+                "href":""
+            },
+            {
+                "src":"./pics/rm-phones/RedmiNote10Pro.png",
+                "product":"Redmi Note 10 Pro",
+                "href":""
+            },
+            {
+                "src":"./pics/more.png",
+                "product":"More",
+                "href":""
+            }
+        ]
+    ,
+    "mitv":[
+            {
+                "src":"./pics/mitv/TvQ1E.png",
+                "product":"Xiaomi TV Q1E 55\"",
+                "href":""
+            },
+            {
+                "src":"./pics/mitv/TvP1.jpg",
+                "product":"Mi TV P1 Series",
+                "href":""
+            },
+            {
+                "src":"./pics/mitv/TvQ1.png",
+                "product":"Mi TV Q1 75\"",
+                "href":""
+            },
+            {
+                "src":"./pics/mitv/Tv4s55.png",
+                "product":"Mi LED TV 4S 55\"",
+                "href":""
+            },
+            {
+                "src":"./pics/mitv/Tv4s43.png",
+                "product":"Mi LED TV 4S 43\"",
+                "href":""
+            },
+            {
+                "src":"./pics/more.png",
+                "product":"More",
+                "href":""
+            }
+        ]
+    ,
+    "smartdevices":[
+            {
+                "src":"./pics/smart-devices/xmpad5.png",
+                "product":"Xiaomi Pad 5",
+                "href":""
+            },
+            {
+                "src":"./pics/smart-devices/rmbuds3pro.png",
+                "product":"Redmi Buds 3 Pro",
+                "href":""
+            },
+            {
+                "src":"./pics/smart-devices/ax3000.png",
+                "product":"Xiaomi Mesh System AX3000 (2-Pack)",
+                "href":""
+            },
+            {
+                "src":"./pics/smart-devices/smartband6nfc.png",
+                "product":"Mi Smart Band 6 NFC",
+                "href":""
+            },
+            {
+                "src":"./pics/smart-devices/smartprojector2.png",
+                "product":"Mi Smart Projector 2",
+                "href":""
+            },
+            {
+                "src":"./pics/more.png",
+                "product":"More",
+                "href":""
+            }
+        ]
+}

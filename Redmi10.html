@@ -1,0 +1,624 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redmi10 - Xiaomi Global Official</title>
+    <link rel='icon' href=''>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./nav_bar.css">
+    <link rel="stylesheet" href="./redmi10-styles.css">
+    <link rel="stylesheet" href="./footer.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div id='root'>
+        <div class="global">
+            <div class="xm-layout product">
+                <div class="xm-page-area">
+
+                    <!-- Covid-19 Notification -->
+
+                    <mark class="covid-19 notification" id='covid'>
+                        <div class="covid-19-wrapper">
+                            <span class="covid-19-txt">Due to COVID-19, the ongoing health and containment emergency measures may cause service delays at logistic couriers and Xiaomi authorized service centers until further notice. Thank you for your understanding and support.</span>
+                            <button class='covid-19-close-icon' onclick="close_covid()"><i class="fa fa-close"></i></button>
+                        </div>
+                    </mark>
+
+                    <!-- Navigation Bar -->
+                    <header class='nav-header'>
+
+                        <!-- Black Navigation Bar -->
+                        
+                        <div class="black-nav">
+                            <div class="containerr">
+                                <ul class='black-nav-left'>
+                                    <li class='black-nav-item'><a href="" target="_self">INTERNATIONAL</a></li>
+                                    <li class='black-nav-item'><a href="" target="_self">MI COMMUNITY</a></li>
+                                    <li class='black-nav-item'><a href="" target="_self">MIUI</a></li>
+                                    <li class='black-nav-item'><a href="" target="_self">XIAOMI STUDIOS</a></li>
+                                </ul>
+                                <div class="black-nav-right">
+                                    <ul class='sign-group'>
+                                        <li class='black-nav-item'><a href="" target="_self">Sign in</a></li>
+                                        <li class='black-nav-item'><a href="" target="_self">Sign up</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Navigation Bar -->
+
+                        <div class="nav-container">
+                            <div class="nav-wrapper" id='nav-wrapper' onmouseleave="collapse()">
+                                <div class="nav containerr">
+                                    <div class="nav-option nav-left">
+                                        <div class="logo">
+                                            <div class="logo-wrapper">
+                                                <a href="index.html"><img src="./pics/mi-logo.svg"></a>
+                                            </div>
+                                        </div>
+                                        <div class="nav-group">
+                                            <div class="nav-item">
+                                                <a class='nav-item-title' href='' onmouseenter="expand(1)">Xiaomi Phones</a>
+                                            </div>
+                                            <div class="nav-item">
+                                                <a class='nav-item-title' href='' onmouseenter="expand(2)">POCOPHONE</a>
+                                            </div>
+                                            <div class="nav-item">
+                                                <a class='nav-item-title' href='' onmouseenter="expand(3)">Redmi Phones</a>
+                                            </div>
+                                            <div class="nav-item">
+                                                <a class='nav-item-title' href='' onmouseenter="expand(4)">Mi TV</a>
+                                            </div>
+                                            <div class="nav-item">
+                                                <a class='nav-item-title' href='' onmouseenter="expand(5)">Smart Devices</a>
+                                            </div>
+                                            <div class="nav-item">
+                                                <a class='nav-item-title' href='' onmouseenter="collapse()">All Products</a>
+                                            </div>
+                                            <div class="nav-item">
+                                                <a class='nav-item-title' href='' onmouseenter="collapse()">Product Authentication</a>
+                                            </div>
+                                            <div class="nav-item">
+                                                <a class='nav-item-title' href='' onmouseenter="collapse()">Discover</a>
+                                            </div>
+                                            <div class="nav-line" id='line'>
+                                                <div class='nav-line-wrap' id="line-wrap">
+                                                    <ul class='nav-item_list-group' id='nav-item_list-group'></ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+
+
+                    <!-- Navigation Bar in any type -->
+
+                    <nav class="pin">
+                        <div class="pin-heading">
+                            <span>Redmi 10</span>
+                        </div>
+                        <ul class="pin-nav-list">
+                            <li><a href="" target="_self" class="pin-nav-li">Overview</a></li>
+                            <li><a href="" target="_self" class="pin-nav-li">Specs</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Main Page -->
+
+                    <main>
+                        <div class="sec1">
+                            <img class="sec1pic1" src="pics/photo/redmitext.png">
+                            <div class="sec1textwrap">
+                                <span class="sec1text1">Level Up!</span><br>
+                                <span class="sec1text2">50MP AI quad camera | 90Hz FHD+ display</span>
+                            </div>
+                        </div>
+
+                        <div class="sec2">
+                            <ul class="sec2list">
+                                <li class="sec2li">50MP quad camera</li>
+                                <li class="sec2li">90Hz FHD+ display</li>
+                                <li class="sec2li">Helio G88 processor</li>
+                                <li class="sec2li" style="border: none;">5000mAh battery</li>
+                            </ul>
+                        </div>
+
+                        <div class="sec3">
+                            <div class="sec3txtwrap1">
+                                <span class="sec3txt1">NEXT-LEVEL PHOTOGRAPHY</span><br>
+                                <span class="sec3txt2">Camera setup of your dreams</span>
+                            </div>
+                            <div class="sec3txtwrap2">
+                                <div class="sec3item1">
+                                    <img style="width: 37; height: 56;" src="pics/photo/sec3icon1.png">
+                                    <div class="itemtxtwrap">
+                                        <span class="camres">8MP</span><br>
+                                        <span class="camtype">Ultra-wide angle</span>
+                                    </div>
+                                </div>
+                                <div class="sec3item2">
+                                    <img style="width: 37; height: 56;" src="pics/photo/sec3icon2.png">
+                                    <div class="itemtxtwrap">
+                                        <span class="camres">50MP</span><br>
+                                        <span class="camtype">Main camera</span>
+                                    </div>
+                                </div>
+                                <div class="sec3item3">
+                                    <img style="width: 37; height: 56;" src="pics/photo/sec3icon3.png">
+                                    <div class="itemtxtwrap">
+                                        <span class="camres">2MP</span><br>
+                                        <span class="camtype">Macro camera</span>
+                                    </div>
+                                </div>
+                                <div class="sec3item4">
+                                    <img style="width: 37; height: 56;" src="pics/photo/sec3icon4.png">
+                                    <div class="itemtxtwrap">
+                                        <span class="camres">2MP</span><br>
+                                        <span class="camtype">Depth camera</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sec4">
+                            <div class="sec4txtwrap">
+                                <span class="sechead">Camera setup of your dreams</span>
+                            </div>
+                            <center><img class="sec4pic1" src="pics/photo/sec4pic1.jpg"></center>
+                        </div>
+
+                        <div class="sec5">
+                            <div class="sec5txtwrap">
+                                <span class="sec5txt1 sechead">Always camera-ready</span><br><br>
+                                <span class="sec5txt2 secdetail">With the AI quad camera, you are well-equipped for any
+                                    situation.</span>
+                            </div>
+                            <div class="sec5pics">
+                                <img class="sec5pic1 sec5pic" src="pics/photo/sec5pic1.jpg">
+                                <img class="sec5pic2 sec5pic" src="pics/photo/sec5pic2.jpg">
+                                <img class="sec5pic3 sec5pic" src="pics/photo/sec5pic3.jpg">
+                            </div>
+                        </div>
+
+                        <div class="sec6">
+                            <video class="sec6vdo" src="video/sec6vdo.mp4" poster="pics/photo/sec6vdoposter.jpg" autoplay muted loop></video>
+                            <div class="sec6txtwrap">
+                                <div class="sec6trig">
+                                    <span class="sechead sec6txt1">Get creative with short videos</span><br>
+                                    <span class="secdetail sec6txt2">Use filters to take your short videos to the next
+                                    level.</span>
+                                </div>
+                            </div>
+                            <img class="sec6vdobutton" src="pics/photo/sec6vdobutton.png">
+                        </div>
+
+                        <div class="sec7">
+                            <p class="sechead sec7txt1">Capture more with your selfies</p>
+                            <div class="sec7item sec7item1">
+                                <img style="width: 406;" src="pics/photo/sec7pic1.jpg"><br>
+                                <span>Normal selfie</span>
+                            </div>
+                            <div class="sec7item sec7item2">
+                                <img style="width: 406;" src="pics/photo/sec7pic2.jpg"><br>
+                                <span>Panorama selfie</span>
+                            </div>
+                        </div>
+
+                        <div class="sec8">
+                            <div style="color: black;">
+                                <video class="sec8vdo" src="video/sec8vdo.mp4" autoplay muted loop></video>
+                                <img class="sec8frame" src="pics/photo/sec8pic1.png">
+                                <div class="sec8txtwrap">
+                                    <div class="sec8trig">
+                                        <p style="font-size: 56; font-weight: 800; letter-spacing: 2; line-height: 1.1;">
+                                            NEXT-LEVEL EXPERIENCE</p>
+                                        <span class="sechead" style="line-height: 2;">Smoother scrolling</span><br>
+                                        <span class="secdetail" style="line-height: 1.2;">With a high 90Hz refresh rate you
+                                        can enjoy a smoother, more fluid viewing experience when scrolling or playing
+                                        games.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sec9">
+                            <div class="sec9txtwrap">
+                                <span class="sechead" style="color: white; line-height: 1.3;">Power-saving AdaptiveSync</span><br><br>
+                                <span class="secdetail" style="color: white; line-height: 1.2;">AdaptiveSync, usually only available in
+                                    flagship phones,
+                                    automatically matches the refresh rate to the frame rate of the content, offering a
+                                    smoother result while <br>extending the battery life.</span>
+                            </div>
+                            <div class="sec9itemwrap">
+                                <div class="sec9item1">
+                                    <img style="width: 60; margin-bottom: 10;" src="pics/photo/sec9icon1.png">
+                                    <div class="sec9icontxt" style="color: black;">
+                                        <span style="font-size: 22; font-weight: 800;">45Hz</span><br>
+                                        <span>Immobile screen</span>
+                                    </div>
+                                </div>
+                                <div class="sec9item2">
+                                    <img style="width: 60; margin-bottom: 10;" src="pics/photo/sec9icon2.png">
+                                    <div class="sec9icontxt" style="color: black;">
+                                        <span style="font-size: 22; font-weight: 800;">60Hz</span><br>
+                                        <span>Video streaming</span>
+                                    </div>
+                                </div>
+                                <div class="sec9item3">
+                                    <img style="width: 60; margin-bottom: 10;" src="pics/photo/sec9icon3.png">
+                                    <div class="sec9icontxt" style="color: black;">
+                                        <span style="font-size: 22; font-weight: 800;">90Hz</span><br>
+                                        <span>Scrolling/ Gaming</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sec10">
+                            <div class="sec10txtwrap">
+                                <span class="sechead" style="line-height: 2.5;">Speakers that impress</span><br>
+                                <span class="secdetail">Enjoy better audio with dual speakers.<br>
+                                    Listen to music with crisp stereo sound directly from your phone.</span>
+                            </div>
+                        </div>
+
+                        <div class="sec11">
+                            <div class="sec11txtwrap">
+                                <span class="sechead" style="line-height: 1.2;">NFC support for <br>extra convenience</span><br>
+                                <span class="secdetail" style="position: relative; top: 10;">No need to carry around additional cards, 
+                                    make secure transactions and use public transport easily with your phone.</span>
+                                <span style="font-size: 12; color: black; position: relative; top: 80">*Availability may vary between regions.</span>
+                            </div>
+                        </div>
+
+                        <div class="sec12">
+                            <div class="sec12txtwrap">
+                                <span style="color: black; font-size: 56; font-weight: 800; letter-spacing: 2;">NEXT-LEVEL POWER</span><br>
+                                <span class="sechead" style="position: relative; top: 10;">Powerful octa-core processor</span><br>
+                                <span class="secdetail" style="position: relative; top: 30;">The MediaTek Helio G88 makes its global debut with Redmi 10. 
+                                    The brand new <br>processor produces clearer photos and provides an improved gaming experience.*</span>
+                            </div>
+                        </div>
+
+                        <div class="sec13">
+                            <div class="sec13txt">
+                                <span class="sechead" style="color: white;">Power that lasts</span><br>
+                                <span class="secdetail" style="color: white; position: relative; top: 25;">The large battery has enough power to easily get you through the day. 
+                                    Charge it up in no time with 18W fast charge or 9W <br>reverse wired charging.*</span>
+                            </div>
+                            <div class="sec13itemwrap">
+                                <div class="sec13item">
+                                    <div class="sec13trig">
+                                        <span class="sec13txt2" style="color: white; font-size: 28; font-weight: 800; letter-spacing: 2;">30 hours</span><br>
+                                        <span class="sec13txt2" style="color: white; font-size: 17;">of calls</span>
+                                    </div>
+                                </div>
+                                <div class="sec13item">
+                                    <div class="sec13trig">
+                                        <span class="sec13txt2" style="color: white; font-size: 28; font-weight: 800; letter-spacing: 2;">14 hours</span><br>
+                                        <span class="sec13txt2" style="color: white; font-size: 17;">of videos</span>
+                                    </div>
+                                </div>
+                                <div class="sec13item">
+                                    <div class="sec13trig">
+                                        <span class="sec13txt2" style="color: white; font-size: 28; font-weight: 800; letter-spacing: 2;">158 hours</span><br>
+                                        <span class="sec13txt2" style="color: white; font-size: 17;">of musics</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sec14">
+                            <div class="sec14txtwrap">
+                                <span class="sec14txt" style="font-size: 56; font-weight: 800; letter-spacing: 2;">NEXT-LEVEL DESIGN</span><br>
+                                <span class="sec14txt" style="font-size: 40; font-weight: 800; letter-spacing: 2; position: relative; top: 50;">Thinner and lighter</span><br>
+                                <table class="sec14table" style="position: relative; top: 70;">
+                                    <tr>
+                                        <td style="width: 100; border-right: 1px solid black;"><span class="sec14txt" style="font-size: 40; font-weight: 800;">17g</span><br>
+                                            <span class="sec14txt" style="font-size: 18;">lighter*</span></td>
+
+                                        <td style="width: 150; padding-left: 40;"><span class="sec14txt" style="font-size: 40; font-weight: 800;">8.92mm</span><br>
+                                            <span class="sec14txt" style="font-size: 18;">thin</span></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="sec15">
+                            <div class="sec15txt">
+                                <span class="sechead">Radiant and classy colours</span><br>
+                                <span class="secdetail" style="position: relative; top: 10;">Choose from two elegant matte shades Carbon Gray or Pebble White, or go for the vibrant Sea Blue.</span>
+                            </div>
+                        </div>
+
+                        <div class="sec16">
+                            <div class="sec16itemwrap">
+                                <div class="sec16item">
+                                    <img src="pics/photo/sec16icon1.png" style="width: 58; height: 58;"><br>
+                                    <div class="sec16trig"><span class="sec16txt">Side fingerprint sensor</span></div>
+                                </div>
+                                <div class="sec16item">
+                                    <img src="pics/photo/sec16icon2.png" style="width: 58; height: 58;"><br>
+                                    <div class="sec16trig"><span class="sec16txt">IR Blaster</span></div>
+                                </div>
+                                <div class="sec16item">
+                                    <img src="pics/photo/sec16icon3.png" style="width: 58; height: 58;"><br>
+                                    <div class="sec16trig"><span class="sec16txt">3.5mm headphone jack</span></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="sec17">
+                            <div class="sec17txtwrap">
+                                <span class="sechead" style="color: white;">See specs ></span>
+                            </div>
+                        </div>
+
+                        <div class="sec18">
+                            <div class="sec18txtwrap">
+                                <span>*The comparison refers to the MediaTek Helio G80 processor featured in Redmi 9.</span><br>
+                                <span>*The dimension and weight comparison refers to Redmi 9.</span><br>
+                                <span>*Unless otherwise indicated on the Redmi 10 product page, all data comes from Xiaomi laboratories, product design specifications and suppliers.</span><br>
+                                <span>The testing data may vary slightly due to different software versions, tested phone versions and testing environments and may not reflect the<br>actual product.</span><br>
+                                <span>*The images and videos on this page are for illustration purposes only and may not be the exact representation of the product.</span>
+                            </div>
+                        </div>
+                    </main>
+
+                </div>
+            </div>
+            <div class="footer" style="background: #f5f5f5;">
+                <div class="footer-customer-relationship">
+                    <div class="container">
+                        <div class="row">
+                            <div class="customer-relationship span16">
+                                <div class="introduction">
+                                    <h3>Let's stay in touch</h3>
+                                    <p>Get updates on sales specials and more</p>
+                                </div>
+                                <div class="customer-reaction">
+                                    <div class="customer-email">
+                                        <div>
+                                            <input type="text" name="email" placeholder="Enter Email Address">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="customer-relationship span8" style="margin-left: 20%;">
+                                <div class="introduction">
+                                    <h3>Follow Mi</h3>
+                                    <p>We want to hear from you!</p>
+                                </div>
+                                <div class="customer-reaction">
+                                    <div class="social-media">
+                                        <img src="./pics/footer/facebook.png" class="social-media-item">
+                                        <img src="./pics/footer/youtube.png" class="social-media-item">
+                                        <img src="./pics/footer/ins.png" class="social-media-item">
+                                        <img src="./pics/footer/twitter.png" class="social-media-item">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-nav">
+                        <div class="container">
+                            <dl class="column-wrapper">
+                                <dt>SHOP AND LEARN</dt>
+                                <dd class="column-item">Xiaomi 11T Pro</dd><br>
+                                <dd class="column-item">Xiaomi 11 Lite 5G NE</dd><br>
+                                <dd class="column-item">Xiaomi Pad 5</dd><br>
+                                <dd class="column-item">Redmi Buds 3 Pro</dd><br>
+                                <dd class="column-item">Mi Smart Band 6</dd>
+                            </dl>
+                            <dl class="column-wrapper">
+                                <dt>SUPPORT</dt>
+                                <dd class="column-item">Contact us</dd><br>
+                                <dd class="column-item">User Guide</dd><br>
+                                <dd class="column-item">Warranty</dd><br>
+                                <dd class="column-item">EU Declaration of Conformity</dd><br>
+                                <dd class="column-item">Scooter Safety Notice</dd><br>
+                                <dd class="column-item">Android Enterprise Recommended</dd>
+                            </dl>
+                            <dl class="column-wrapper">
+                                <dt>CONTACT US</dt>
+                                <dd class="column-item">Facebook</dd><br>
+                                <dd class="column-item">Youtube</dd><br>
+                                <dd class="column-item">Instagram</dd><br>
+                                <dd class="column-item">Twitter</dd>
+                            </dl>
+                            <dl class="column-wrapper">
+                                <dt>ABOUT US</dt>
+                                <dd class="column-item">Xiaomi</dd><br>
+                                <dd class="column-item">Leadership Team</dd><br>
+                                <dd class="column-item">Privacy Policy</dd><br>
+                                <dd class="column-item">Integrity & Compliance</dd><br>
+                                <dd class="column-item">Press & Media</dd><br>
+                                <dd class="column-item">Xiaomi Blog</dd><br>
+                                <dd class="column-item">Investor Relations</dd><br>
+                                <dd class="column-item">Sustainability</dd><br>
+                                <dd class="column-item">Trust Center</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <div class="container" style="border-top: 1px solid #424242;">
+                            <div class="copyright">Copyright © 2010 - 2021 Xiaomi. All Rights Reserved</div>
+                            <span class="cookie-policy" style="border-left: 1px solid #424242;">Cookie Settings Cookie policy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        gsap.from(".sec1textwrap", {
+            scrollTrigger: {
+                trigger: ".sec1textwrap",
+            },
+            opacity: 0,
+            duration: 1.5,
+            y: 15
+        });
+        gsap.from(".sec2list", {
+            scrollTrigger: {
+                trigger: ".sec2list",
+            },
+            opacity: 0,
+            duration: 1.5,
+            y: 15
+        });
+        gsap.from(".sec3txtwrap1", {
+            scrollTrigger: {
+                trigger: ".sec3txtwrap1",
+            },
+            opacity: 0,
+            duration: 1.5,
+            y: 15
+        });
+        gsap.from(".sec3txtwrap2", {
+            scrollTrigger: {
+                trigger: ".sec3txtwrap2",
+            },
+            opacity: 0,
+            duration: 1.5,
+            y: 15
+        });
+        gsap.from(".sec4txtwrap", {
+            scrollTrigger: {
+                trigger: ".sec4txtwrap",
+            },
+            opacity: 0,
+            duration: 1.5,
+            y: 15
+        });
+        gsap.from(".sec5txtwrap", {
+            scrollTrigger: {
+                trigger: ".sec5txtwrap",
+            },
+            opacity: 0,
+            duration: 1.5,
+            y: 15
+        });
+        gsap.from(".sec6trig", {
+            scrollTrigger: {
+                trigger: ".sec6trig",
+                start: "center bottom"
+            },
+            opacity: 0,
+            duration: 1.5,
+            y: 15
+        });
+        gsap.from(".sec7txt1", {
+            scrollTrigger: {
+                trigger: ".sec7txt1",
+            },
+            opacity: 0,
+            duration: 1.5,
+            y: 10
+        });
+        gsap.from(".sec8trig", {
+            scrollTrigger: {
+                trigger: ".sec8trig",
+                start: "bottom top",
+            },
+            opacity: 0,
+            duration: 1.5,
+            y: 10
+        });
+        gsap.from(".sec9txtwrap, .sec9icontxt", {
+            scrollTrigger: {
+                trigger: ".sec9txtwrap",
+            },
+            opacity: 0,
+            duration: 1.5,
+            y: 10
+        });
+        gsap.from(".sec10txtwrap", {
+            scrollTrigger: {
+                trigger: ".sec10txtwrap",
+            },
+            opacity: 0,
+            duration: 1.5,
+            y: 10
+        });
+        gsap.from(".sec11txtwrap", {
+            scrollTrigger: {
+                trigger: ".sec11txtwrap",
+            },
+            opacity: 0,
+            duration: 1.5,
+            y: 10
+        });
+        gsap.from(".sec12txtwrap", {
+            scrollTrigger: {
+                trigger: ".sec12txtwrap",
+            },
+            opacity: 0,
+            duration: 1.5,
+            y: 10
+        });
+        gsap.from(".sec13txt, .sec13trig", {
+            scrollTrigger: {
+                trigger: ".sec13trig",
+            },
+            opacity: 0,
+            duration: 1.5,
+            y: 10
+        });
+        gsap.from(".sec14txtwrap", {
+            scrollTrigger: {
+                trigger: ".sec14txtwrap",
+            },
+            opacity: 0,
+            duration: 1.5,
+            y: 10
+        });
+        gsap.from(".sec15txt", {
+            scrollTrigger: {
+                trigger: ".sec15txt",
+            },
+            opacity: 0,
+            duration: 1.5,
+            y: 10
+        });
+        gsap.from(".sec16trig", {
+            scrollTrigger: {
+                trigger: ".sec16trig",
+                start: "bottom bottom"
+            },
+            opacity: 0,
+            duration: 1.5,
+            y: 10
+        });
+        gsap.from(".sec18txtwrap", {
+            scrollTrigger: {
+                trigger: ".sec18txtwrap",
+                start: "bottom bottom"
+            },
+            opacity: 0,
+            duration: 1.5,
+            y: 10
+        });
+    </script>
+
+    <script src="./nav_bar.js"></script>
+</body>
+
+</html>

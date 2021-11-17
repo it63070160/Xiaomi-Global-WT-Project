@@ -1,0 +1,561 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiaomi 11T - Xiaomi Global Official</title>
+    <link rel='icon' href=''>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./nav_bar.css">
+    <link rel="stylesheet" href="xiaomi11T-styles.css">
+</head>
+<body>
+    <div class="xm-page-area">
+        
+        <!-- Covid-19 Notification -->
+
+        <mark class="covid-19 notification" id='covid'>
+            <div class="covid-19-wrapper">
+                <span class="covid-19-txt">Due to COVID-19, the ongoing health and containment emergency measures may cause service delays at logistic couriers and Xiaomi authorized service centers until further notice. Thank you for your understanding and support.</span>
+                <button class='covid-19-close-icon' onclick="close_covid()"><i class="fa fa-close"></i></button>
+            </div>
+        </mark>
+
+        <!-- Navigation Bar -->
+        <header class='nav-header'>
+
+            <!-- Black Navigation Bar -->
+            
+            <div class="black-nav">
+                <div class="containerr">
+                    <ul class='black-nav-left'>
+                        <li class='black-nav-item'><a href="" target="_self">INTERNATIONAL</a></li>
+                        <li class='black-nav-item'><a href="" target="_self">MI COMMUNITY</a></li>
+                        <li class='black-nav-item'><a href="" target="_self">MIUI</a></li>
+                        <li class='black-nav-item'><a href="" target="_self">XIAOMI STUDIOS</a></li>
+                    </ul>
+                    <div class="black-nav-right">
+                        <ul class='sign-group'>
+                            <li class='black-nav-item'><a href="" target="_self">Sign in</a></li>
+                            <li class='black-nav-item'><a href="" target="_self">Sign up</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation Bar -->
+
+            <div class="nav-container">
+                <div class="nav-wrapper" id='nav-wrapper' onmouseleave="collapse()">
+                    <div class="nav containerr">
+                        <div class="nav-option nav-left">
+                            <div class="logo">
+                                <div class="logo-wrapper">
+                                    <a href="index.html"><img src="./pics/mi-logo.svg"></a>
+                                </div>
+                            </div>
+                            <div class="nav-group">
+                                <div class="nav-item">
+                                    <a class='nav-item-title' href='' onmouseenter="expand(1)">Xiaomi Phones</a>
+                                </div>
+                                <div class="nav-item">
+                                    <a class='nav-item-title' href='' onmouseenter="expand(2)">POCOPHONE</a>
+                                </div>
+                                <div class="nav-item">
+                                    <a class='nav-item-title' href='' onmouseenter="expand(3)">Redmi Phones</a>
+                                </div>
+                                <div class="nav-item">
+                                    <a class='nav-item-title' href='' onmouseenter="expand(4)">Mi TV</a>
+                                </div>
+                                <div class="nav-item">
+                                    <a class='nav-item-title' href='' onmouseenter="expand(5)">Smart Devices</a>
+                                </div>
+                                <div class="nav-item">
+                                    <a class='nav-item-title' href='' onmouseenter="collapse()">All Products</a>
+                                </div>
+                                <div class="nav-item">
+                                    <a class='nav-item-title' href='' onmouseenter="collapse()">Product Authentication</a>
+                                </div>
+                                <div class="nav-item">
+                                    <a class='nav-item-title' href='' onmouseenter="collapse()">Discover</a>
+                                </div>
+                                <div class="nav-line" id='line'>
+                                    <div class='nav-line-wrap' id="line-wrap">
+                                        <ul class='nav-item_list-group' id='nav-item_list-group'></ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Navigation Bar in any type -->
+        <div class="xm-navbar">
+            <div class="xm-navbar-container">
+                <div class="xm-navbar-title">
+                    <h1>
+                        <span class="xm-text header" data-type="text">Xiaomi 11T</span>
+                    </h1>
+                </div>
+                <div class="xm-related">
+                    <div class="xm-related-container">
+                        <div class="xm-related-title">
+                            <ul></ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="xm-navbar-nav">
+                    <ul>
+                        <li class="xm-navbar-nav-item">
+                            <a href="" target="_self" id="nav-overview">Overview</a>
+                        </li>
+                        <li class="xm-navbar-nav-item">
+                            <a href="" target="_self" id="nav-specs">Specs</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="main-con1" style="display: block; inset: 0px; position: relative; box-sizing: border-box; width: 1903px; height: 2132px; padding: 0px 0px 1163px;">
+                <div class="sec1-wrap" id="sec1-wrap" style="transform: translate(0px, 0px); inset: 0px auto auto 0px; margin: 0px; width: 100%; height: 969px; padding: 0px;">
+                    <div class="sec1" id="sec1">
+                        <div class="text-box" id="sec1-tb">
+                            <img class="product-text" src="./pics/xm11T/product-text.png">
+                            <span class="text f40 bold black">108MP pro-grade camera</span>
+                            <span class="text f40 bold black">120Hz AdaptiveSync AMOLED display</span>
+                            <span class="text f40 bold black">67W wired turbo charging</span>
+                        </div>
+                        <img id="hp" class="hp" src="./pics/xm11T/header-phone-1.png">
+                        <img id="hp2" class="hp2" src="./pics/xm11T/header-phone-2.png">
+                    </div>
+                    <div class="sec1-bottom-wrap" id="sec1-bot-wrap">
+                        <div class="sec1-bottom">
+                            <div class="text-box" id="sec1-bot-tb">
+                                <span class="text f100 bold white">Cinemagic</span>
+                                <span class="text f26 bold c7e">Xiaomi 11T empowers you to turn the cinematic moments in <br>your everyday life into Cinemagic. This device offers the ultimate <br>cinematic experience from stunning photography, vibrant visuals <br>to studio-grade videography - perfect for sharing and <br>experiencing the stories that matter to you.</span>
+                            </div>
+                        </div>
+                        <div class="video_outer" style="transform: translate(0px, -4.1%);">
+                            <video class="full-hd" src="./videos/xm11T/xm11t.mp4" autoplay muted loop></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-con2">
+                <div class="sec2-wrap" id="sec2-wrap">
+                    <div class="sec2">
+                        <div class="text-box" id="sec2-tb">
+                            <span class="text f120 bold white">Create Cinemagic</span>
+                            <span class="text f52 bold c7e">Advanced AI algorithm and pro-grade cameras, professional special effects and creative options are all right at your fingertips.</span>
+                        </div>
+                    </div>
+                    <div class="video-list" id="sec2-vl" style="opacity: 0;">
+                        <div class="video-box">
+                            <div class="text-box2">
+                                <span class="text f60 bold white">One-click AI cinema</span>
+                                <span class="text f26 bold white">Multiple computational videography effects and <br>one-tap switch. It's time to take your creativity to <br>the next level!</span>
+                            </div>
+                            <div class="video_outer">
+                                <video class="full-hd" src="./videos/xm11T/one-click.mp4" autoplay muted loop></video>
+                            </div>
+                        </div>
+                        <div class="video-box2" style="background-image: url(./pics/xm11T/video-image-2.jpg);">
+                            <div class="text-box2">
+                                <span class="text f60 bold white">Discover the little wonders hidden all around you</span>
+                                <span class="text f26 bold white">The telemacro lens reveals a miniature world that you can record in stunning detail.</span>
+                            </div>
+                            <div class="video_outer">
+                                <img class="playicon" src="./pics/xm11T/play-btn.png">
+                            </div>
+                        </div>
+                        <div class="video-box3" style="background-image: url(./pics/xm11T/video-image-3.jpg);">
+                            <div class="text-box2">
+                                <span class="text f60 bold white">Perfectly record any interesting sounds with Audio Zoom</span>
+                                <span class="text f26 bold white">Three simultaneously operating microphones allow you to get audibly closer to your subject as you zoom in on a video.</span>
+                            </div>
+                            <div class="video_outer">
+                                <img class="playicon" src="./pics/xm11T/play-btn.png">
+                            </div>
+                        </div>
+                        <span class="text f26 bold c4b" style="display: block; text-align: center; width: 1037.72px; margin: 87.7165px auto 0;">*These videos were shot on Xiaomi 11T Pro and are for demonstration purposes only</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-con3">
+                <div class="sec3">
+                    <div class="text-box">
+                        <span class="text f72 bold black">Cinemagic photography</span>
+                        <span class="text f72 bold ca7">Made easy with flagship <br>triple cameras</span>
+                    </div>
+                    <img class="top-phone" id="top-phone" src="./pics/xm11T/top-phone.png">
+                    <img class="bot-phone" id="bot-phone" src="./pics/xm11T/bot-phone.png">
+                </div>
+            </div>
+
+            <div class="main-con4">
+                <div class="sec4-wrap" id="sec4-wrap">
+                    <div class="sec4" id="sec4">
+                        <div class="text-box">
+                            <span class="text f72 bold white">108MP pro-grade camera</span>
+                            <span class="text f26 bold c7e">Remarkable hardware strength and professional algorithm tuning provides you with amazing <br>picture resolution and texture in both light and dark environments</span>
+                        </div>
+                        <div class="img-box">
+                            <img class="white-img" id="white-img" src="./pics/xm11T/white.jpg">
+                            <img class="black-img" src="./pics/xm11T/black.jpg">
+                        </div>
+                        <ul class="feature">
+                            <li class="feature-item">
+                                <img class="feature-icon" src="./pics/xm11T/logo-1.png">
+                                <span class="text f26 bold white">2.1μm 9-in-1 Super Pixel</span>
+                            </li>
+                            <li class="feature-item">
+                                <img class="feature-icon" src="./pics/xm11T/logo-2.png">
+                                <span class="text f26 bold white">Dual native ISO</span>
+                            </li>
+                            <li class="feature-item">
+                                <img class="feature-icon" src="./pics/xm11T/logo-3.png">
+                                <span class="text f26 bold white">Night mode 2.0</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-con5">
+                <span id="sec5-txt" style="opacity: 0;" class="text f72 bold white">120° ultra-wide angle camera <br>meets night mode</span>
+                <span id="sec5-txt2" style="opacity: 0;" class="text f26 bold c7e">Easily capture expansive night-time scenes</span>
+                <div class="img-box">
+                    <img class="img-on" src="./pics/xm11T/OFF.jpg">
+                    <img class="img-off" src="./pics/xm11T/ON.jpg">
+                    <span class="text f36 bold white off">OFF</span>
+                    <span class="text f36 bold white on">ON</span>
+                </div>
+            </div>
+
+            <div class="main-con6">
+                <span id="sec6-txt" style="opacity: 0;" class="text f72 bold white">Telemacro shooting to explore an <br>amazing miniature world</span>
+                <span id="sec6-txt2" style="opacity: 0;" class="text f26 bold c7e">3-7cm automatic focus reveals microscopic visual wonders</span>
+                <div class="img-box">
+                    <img class="img" src="./pics/xm11T/tel-1.jpg">
+                    <img class="img2" src="./pics/xm11T/tel-2.jpg">
+                </div>
+            </div>
+
+            <div class="main-con7">
+                <span id="sec7-txt" style="opacity: 0;" class="text f72 bold white">Front to back, capture the best of <br>you</span>
+                <span id="sec7-txt2" style="opacity: 0;" class="text f26 bold c7e">Take the lead in immortalising your favourite moments</span>
+                <div class="img-box">
+                    <div class="img-sub1">
+                        <img class="img" src="./pics/xm11T/rear-1.jpg">
+                        <span class="text f36 bold white">Rear Camera</span>
+                    </div>
+                    <div class="img-sub2">
+                        <img class="img2" src="./pics/xm11T/before-1.jpg">
+                        <span class="text f36 bold white">Front Camera</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-con8">
+                <div class="sec8-wrap" id="sec8-wrap">
+                    <div class="sec8">
+                        <div class="text-box" id="sec8-tb">
+                            <span class="text f120 bold white">CINEMAGIC POWER</span>
+                            <span class="text f52 bold c7e">Powerful performance supports your creative <br>expression without limits</span>
+                        </div>
+                        <div class="bottom">
+                            <div class="text-box-bot">
+                                <span id="sec8-th1" class="text f72 bold black" style="opacity: 0; transform: translate(0px, 150px);">Even faster, high-<br>performance 5G <br>processor*</span>
+                                <span id="sec8-t1" class="text f26 bold black t1" style="opacity: 0; transform: translate(0px, 150px);">The latest and most powerful MediaTek 5G chipset* <br>with dual 5G SIM and integrated 5G modem ensures <br>smooth operation and efficient power consumption.</span>
+                                <span id="sec8-th2" class="text f72 bold black th2" style="opacity: 0; transform: translate(0px, 150px);">22%</span>
+                                <span id="sec8-t2" class="text f26 bold black t2" style="opacity: 0; transform: translate(0px, 150px);">Faster CPU performance*</span>
+                                <span id="sec8-th3" class="text f72 bold black th3" style="opacity: 0; transform: translate(0px, 150px);">25%</span>
+                                <span id="sec8-t3" class="text f26 bold black t3" style="opacity: 0; transform: translate(0px, 150px);">Power efficiency improved*</span>
+                                <span id="sec8-th4" class="text f72 bold black th4" style="opacity: 0; transform: translate(0px, 150px);">3.0GHz</span>
+                                <span id="sec8-t4" class="text f26 bold black t4" style="opacity: 0; transform: translate(0px, 150px);">High frequency ultra core</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-con9">
+                <div class="sec9-wrap" id="sec9-wrap">
+                    <div class="sec9">
+                        <div class="text-box" id="sec9-tb">
+                            <span class="text f120 bold white">CINEMAGIC ENERGY</span>
+                            <span class="text f52 bold c7e">Always charged and ready for when inspiration <br>strikes</span>
+                        </div>
+                        <div class="bottom">
+                            <div class="text-box-bot">
+                                <span id="sec9-th1" class="text f72 bold white">5000mAh battery + <br>67W turbo charging</span>
+                                <span id="sec9-t1" class="text f72 bold c7e t1">100% charge in just <br>36mins*</span>
+                                <span id="sec9-th2" class="text f26 bold c7e th2">The second-generation nano silicon oxide anode material with a <br>lithium ion storage has a capacity that's ten times that of the <br>conventional graphite anode material. This significantly improves <br>the battery capacity and charging speed.</span>
+                                <span id="sec9-t2" class="text f72 bold white t2">-10℃</span>
+                                <span id="sec9-th3" class="text f26 bold c7e th3">Charging is supported*</span>
+                                <span id="sec9-t3" class="text f26 bold c3d t3">*Final UI may vary.</span>
+                            </div>
+                            <div class="text-box-bot2">
+                                <div class="left">
+                                    <span class="text f60 bold white">Speed driven by <br>breakthrough technology</span>
+                                    <span class="text f26 bold c7e">Dual charge pump design increases current intake. When <br>paired with MTW (Multiple Tab Winding) technology, it is <br>effective in reducing electrical resistance and overheating, <br>improving charging efficiency.</span>
+                                </div>
+                                <div class="right">
+                                    <video class="power" src="./videos/xm11T/power.mp4" autoplay muted loop></video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-con10">
+                <div class="sec10-wrap" id="sec10-wrap">
+                    <div class="sec10">
+                        <div class="text-box" id="sec10-tb">
+                            <span class="text f120 bold white">CINEMAGIC <br>EXPERIENCE</span>
+                            <span class="text f52 bold c7e">Dive deep into a world of beautiful content</span>
+                        </div>
+                        <div class="bottom">
+                            <div class="text-box-bot">
+                                <span id="sec10-th1" class="text f72 bold white">6.67'' flat AMOLED <br>display</span>
+                                <span id="sec10-t1" class="text f26 bold c7e t1">Stunning visuals with every glance</span>
+                            </div>
+                            <ul class="feature">
+                                <li class="feature-item">
+                                    <span class="text f40 bold white">1000 nits</span>
+                                    <span class="text f26 bold c7e">Peak brightness</span>
+                                </li>
+                                <li class="feature-item">
+                                    <span class="text f40 bold white">Over 1 billion colours</span>
+                                    <span class="text f26 bold c7e">Ultra smooth colour transition</span>
+                                </li>
+                                <li class="feature-item">
+                                    <span class="text f40 bold white">5,000,000:1</span>
+                                    <span class="text f26 bold c7e">Contrast ratio</span>
+                                </li>
+                                <li class="feature-item">
+                                    <span class="text f40 bold white">DCI-P3</span>
+                                    <span class="text f26 bold c7e">Wide colour gamut</span>
+                                </li>
+                                <li class="feature-item">
+                                    <span class="text f40 bold white">HDR10+</span>
+                                    <span class="text f26 bold c7e">Discover more details</span>
+                                </li>
+                                <li class="feature-item">
+                                    <span class="text f40 bold white">TrueColor</span>
+                                    <span class="text f26 bold c7e">Precision-tuned for perfection</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-con11">
+                <div class="text-box">
+                    <span class="text f72 bold white">120Hz AdaptiveSync <br>display</span>
+                    <span class="text f72 bold c7e">Cinemagically smooth</span>
+                    <span class="text f26 bold c7e">With AdaptiveSync, the display refresh rate automatically <br>adjusts depending on the content. This not only reduces <br>power consumption but also provides you with a more fluid <br>viewing experience. It also features up to 480Hz touch <br>sampling rate for more responsive screen control and quicker <br>feedback.</span>
+                    <img class="tag2" src="./pics/xm11T/tag-2.jpg">
+                </div>
+                <div class="hz-txt">
+                    <span class="text f36 bold c7e">60Hz</span>
+                    <span class="text f36 bold c7e">120Hz</span>
+                </div>
+                <img class="com-hz-img" src="./pics/xm11T/compare-hz.png">
+                <video class="com-hz-vid" src="./videos/xm11T/compare-hz.mp4" autoplay muted loop></video>
+            </div>
+
+            <div class="main-con12">
+                <div class="text-box">
+                    <span class="text f72 bold white">An outstanding display that is <br>designed for you</span>
+                    <span class="text f26 bold c7e">Highly optimised comfortable visual experience</span>
+                </div>
+                <div class="img-box">
+                    <img class="display3" src="./pics/xm11T/display-new_03.jpg">
+                </div>
+                <ul class="feature">
+                    <li class="feature-item">
+                        <img class="feature-icon" src="./pics/xm11T/logo-4.png">
+                        <span class="text f26 bold white">Reading mode 3.0</span>
+                        <span class="text f24 bold c67">Perfect paper-like reading experience</span>
+                    </li>
+                    <li class="feature-item">
+                        <img class="feature-icon" src="./pics/xm11T/logo-5.png">
+                        <span class="text f26 bold white">360° ambient light sensor</span>
+                        <span class="text f24 bold c67">Automatically adjust the brightness <br>level for optimal comfort</span>
+                    </li>
+                    <li class="feature-item">
+                        <img class="feature-icon" src="./pics/xm11T/logo-6.png">
+                        <span class="text f26 bold white">True Display</span>
+                        <span class="text f24 bold c67">Cool or warm light display, adapted <br>to your environment</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="main-con13">
+                <span class="text f72 bold white">Unforgettable audio experience <br>with Dolby Atmos®</span>
+                <span class="text f26 bold c7e">Equipped with cinema-grade Dolby Atmos® and dedicated dual speakers to produce high-quality <br>360° surround sound that is crystal clear and precise.</span>
+                <div class="img-box">
+                    <img class="dolby-logo" src="./pics/xm11T/dolby-logo.png">
+                </div>
+            </div>
+
+            <div class="main-con14">
+                <span class="text f72 bold white">The toughest Gorilla® Glass yet <br>for ultra protection</span>
+                <span class="text f26 bold c7e">Display protected by Corning® Gorilla® Glass Victus™. Able to survive drops from up to 2 meters <br>and is 2x more scratch-resistant.*</span>
+            </div>
+
+            <div class="main-con15">
+                <span class="text f72 bold white">Elegant and stunning style</span>
+                <span class="text f26 bold c7e">Three exquisite colour options. Match your style for any occasion</span>
+                <div class="slide" id="slide" style="width: 4968px; opacity: 1; transform: translate3d(-242px, 0px, 0px);">
+                    <div class="img-box">
+                        <img id="sp7" class="slide-pic pos3" src="./pics/xm11T/slide-pos-3.jpg">
+                        <img id="sp1" class="slide-pic pos1" src="./pics/xm11T/slide-pos-1.jpg">
+                        <img id="sp2" class="slide-pic pos2" src="./pics/xm11T/slide-pos-2.jpg">
+                        <img id="sp3" class="slide-pic pos3" src="./pics/xm11T/slide-pos-3.jpg">
+                        <img id="sp4" class="slide-pic pos1" src="./pics/xm11T/slide-pos-1.jpg">
+                        <img id="sp5" class="slide-pic pos2" src="./pics/xm11T/slide-pos-2.jpg">
+                        <img id="sp6" class="slide-pic pos3" src="./pics/xm11T/slide-pos-3.jpg">
+                    </div>
+                </div>
+                <ul class="text-slide">
+                    <li class="text-item">
+                        <span id="sec15-ti1" class="text f26 bold left">Moonlight White</span>
+                    </li>
+                    <li class="text-item">
+                        <span id="sec15-ti2" class="text f26 bold center">Meteorite Gray</span>
+                    </li>
+                    <li class="text-item">
+                        <span id="sec15-ti3" class="text f26 bold right">Celestial Blue</span>
+                    </li>
+                </ul>
+                <div class="pin-line">
+                    <span class="color-line" id="color-line"></span>
+                </div>
+                <div class="description">
+                    <span id="sec15-txt1" class="text f26 bold white txt1">Dipped anti-glare finish</span>
+                    <span id="sec15-txt2" style="opacity: 0;" class="text f26 bold white txt2">Brushed metal finish</span>
+                    <span id="sec15-txt3" style="opacity: 0;" class="text f26 bold white txt3">Dipped anti-glare finish</span>
+                </div>
+            </div>
+
+            <div class="main-con16">
+                <a class="link f72 bold white">SEE SPECS></a>
+            </div>
+
+            <div class="main-con17">
+                <span class="text f26 bold c7e">*5G connectivity may vary based on regional availability and local operator support.</span>
+                <span class="text f26 bold c7e">*This statement is as of September 15, 2021.</span>
+                <span class="text f26 bold c7e">*The performance upgrade percentage is compared to MediaTek Dimensity 1000+.</span>
+                <span class="text f26 bold c7e">*Charging data is tested in Xiaomi Internal Labs from 2% - 100%. Actual results may vary.</span>
+                <span class="text f26 bold c7e">*Xiaomi 11T operates best at 0° C to 35° C ambient temperatures. Storage temperature from -20°C to 45°C. Charging <br>the device and storing the battery in a hot environment can cause irreversible damage. When using your device in a <br>very cold environment, you may notice a decrease in battery life, but this condition is temporary. Once the battery’s <br>temperature returns to the normal operating range, performance will return to normal</span>
+                <span class="text f26 bold c7e">*5000mAh refers to the typical value of Xiaomi 11T's battery capacity.</span>
+                <span class="text f26 bold c7e">*Compared to previous generation. Data is obtained from Corning's official website.</span>
+                <span class="text f26 bold c7e">*The images and videos on this page are for illustration purposes only and may not be the exact representation of <br>the product.</span>
+                <span class="text f26 bold c7e">*Unless otherwise indicated on the Xiaomi 11T product page, all data comes from Xiaomi laboratories, product <br>design specifications and suppliers. The testing data may vary slightly due to different software versions, tested <br>phone versions and testing environments and may not reflect the actual product.</span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="footer-customer-relationship">
+            <div class="container">
+                <div class="row">
+                    <div class="customer-relationship span16">
+                        <div class="introduction">
+                            <h3>Let's stay in touch</h3>
+                            <p>Get updates on sales specials and more</p>
+                        </div>
+                        <div class="customer-reaction">
+                            <div class="customer-email">
+                                <div>
+                                    <input type="text" name="email" placeholder="Enter Email Address">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="customer-relationship span8" style="margin-left: 20%;">
+                        <div class="introduction">
+                            <h3>Follow Mi</h3>
+                            <p>We want to hear from you!</p>
+                        </div>
+                        <div class="customer-reaction">
+                            <div class="social-media">
+                               <img src="./pics/footer/facebook.png" class="social-media-item">
+                               <img src="./pics/footer/youtube.png" class="social-media-item">
+                               <img src="./pics/footer/ins.png" class="social-media-item">
+                               <img src="./pics/footer/twitter.png" class="social-media-item">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-nav">
+                <div class="container">
+                    <dl class="column-wrapper">
+                        <dt>SHOP AND LEARN</dt>
+                        <dd class="column-item">Xiaomi 11T Pro</dd><br>
+                        <dd class="column-item">Xiaomi 11 Lite 5G NE</dd><br>
+                        <dd class="column-item">Xiaomi Pad 5</dd><br>
+                        <dd class="column-item">Redmi Buds 3 Pro</dd><br>
+                        <dd class="column-item">Mi Smart Band 6</dd>
+                    </dl>
+                    <dl class="column-wrapper">
+                        <dt>SUPPORT</dt>
+                        <dd class="column-item">Contact us</dd><br>
+                        <dd class="column-item">User Guide</dd><br>
+                        <dd class="column-item">Warranty</dd><br>
+                        <dd class="column-item">EU Declaration of Conformity</dd><br>
+                        <dd class="column-item">Scooter Safety Notice</dd><br>
+                        <dd class="column-item">Android Enterprise Recommended</dd>
+                    </dl>
+                    <dl class="column-wrapper">
+                        <dt>CONTACT US</dt>
+                        <dd class="column-item">Facebook</dd><br>
+                        <dd class="column-item">Youtube</dd><br>
+                        <dd class="column-item">Instagram</dd><br>
+                        <dd class="column-item">Twitter</dd>
+                    </dl>
+                    <dl class="column-wrapper">
+                        <dt>ABOUT US</dt>
+                        <dd class="column-item">Xiaomi</dd><br>
+                        <dd class="column-item">Leadership Team</dd><br>
+                        <dd class="column-item">Privacy Policy</dd><br>
+                        <dd class="column-item">Integrity & Compliance</dd><br>
+                        <dd class="column-item">Press & Media</dd><br>
+                        <dd class="column-item">Xiaomi Blog</dd><br>
+                        <dd class="column-item">Investor Relations</dd><br>
+                        <dd class="column-item">Sustainability</dd><br>
+                        <dd class="column-item">Trust Center</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container" style="border-top: 1px solid #424242;">
+                    <div class="copyright">Copyright © 2010 - 2021  Xiaomi. All Rights Reserved</div>
+                    <span class="cookie-policy" style="border-left: 1px solid #424242;">Cookie Settings Cookie policy</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./xm11.js"></script>
+    <script src="./nav_bar.js"></script>
+</body>
+</html>

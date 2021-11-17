@@ -1,0 +1,490 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>redmi-note-8-2021</title>
+    <link rel='icon' href=''>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./nav_bar.css">
+    <link rel="stylesheet" href="./redmi-note8-style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id='root'>
+        <div class="global">
+            <div class="xm-layout product">
+                <div class="xm-page-area">
+                    <!-- Covid-19 Notification -->
+
+                    <mark class="covid-19 notification" id='covid'>
+                        <div class="covid-19-wrapper">
+                            <span class="covid-19-txt">Due to COVID-19, the ongoing health and containment emergency measures may cause service delays at logistic couriers and Xiaomi authorized service centers until further notice. Thank you for your understanding and support.</span>
+                            <button class='covid-19-close-icon' onclick="close_covid()"><i class="fa fa-close"></i></button>
+                        </div>
+                    </mark>
+
+                    <!-- Navigation Bar -->
+                    <header class='nav-header'>
+
+                        <!-- Black Navigation Bar -->
+                        
+                        <div class="black-nav">
+                            <div class="containerr">
+                                <ul class='black-nav-left'>
+                                    <li class='black-nav-item'><a href="" target="_self">INTERNATIONAL</a></li>
+                                    <li class='black-nav-item'><a href="" target="_self">MI COMMUNITY</a></li>
+                                    <li class='black-nav-item'><a href="" target="_self">MIUI</a></li>
+                                    <li class='black-nav-item'><a href="" target="_self">XIAOMI STUDIOS</a></li>
+                                </ul>
+                                <div class="black-nav-right">
+                                    <ul class='sign-group'>
+                                        <li class='black-nav-item'><a href="" target="_self">Sign in</a></li>
+                                        <li class='black-nav-item'><a href="" target="_self">Sign up</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Navigation Bar -->
+
+                        <div class="nav-container">
+                            <div class="nav-wrapper" id='nav-wrapper' onmouseleave="collapse()">
+                                <div class="nav containerr">
+                                    <div class="nav-option nav-left">
+                                        <div class="logo">
+                                            <div class="logo-wrapper">
+                                                <a href="index.html"><img src="./pics/mi-logo.svg"></a>
+                                            </div>
+                                        </div>
+                                        <div class="nav-group">
+                                            <div class="nav-item">
+                                                <a class='nav-item-title' href='' onmouseenter="expand(1)">Xiaomi Phones</a>
+                                            </div>
+                                            <div class="nav-item">
+                                                <a class='nav-item-title' href='' onmouseenter="expand(2)">POCOPHONE</a>
+                                            </div>
+                                            <div class="nav-item">
+                                                <a class='nav-item-title' href='' onmouseenter="expand(3)">Redmi Phones</a>
+                                            </div>
+                                            <div class="nav-item">
+                                                <a class='nav-item-title' href='' onmouseenter="expand(4)">Mi TV</a>
+                                            </div>
+                                            <div class="nav-item">
+                                                <a class='nav-item-title' href='' onmouseenter="expand(5)">Smart Devices</a>
+                                            </div>
+                                            <div class="nav-item">
+                                                <a class='nav-item-title' href='' onmouseenter="collapse()">All Products</a>
+                                            </div>
+                                            <div class="nav-item">
+                                                <a class='nav-item-title' href='' onmouseenter="collapse()">Product Authentication</a>
+                                            </div>
+                                            <div class="nav-item">
+                                                <a class='nav-item-title' href='' onmouseenter="collapse()">Discover</a>
+                                            </div>
+                                            <div class="nav-line" id='line'>
+                                                <div class='nav-line-wrap' id="line-wrap">
+                                                    <ul class='nav-item_list-group' id='nav-item_list-group'></ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                    <!-- Navigation Bar in any type -->
+                    <div class="xm-navbar" style="z-index: 2;">
+                        <div class="xm-navbar-container">
+                            <div class="xm-navbar-title">
+                                <h1>
+                                    <span class="xm-text header" data-type="text">Redmi Note 8 2021</span>
+                                </h1>
+                            </div>
+                            <div class="xm-related">
+                                <div class="xm-related-container">
+                                    <div class="xm-related-title">
+                                        <ul></ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="xm-navbar-nav">
+                                <ul>
+                                    <li class="xm-navbar-nav-item">
+                                        <a href="" target="_self" id="nav-overview">Overview</a>
+                                    </li>
+                                    <li class="xm-navbar-nav-item">
+                                        <a href="" target="_self" id="nav-specs">Specs</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Main Page -->
+                    <main class='overview-con'>
+                        <div class="one">
+                            <img src="pics/redmi-note8/header-logo.png" class="header-logo">
+                            <p class="text-header-logo">The Performance All-Star</p>
+                        </div>
+                        <div class="two">
+                            <ul class="feature-list">
+                                <li class="feature-item"><strong>MediaTek Helio G85 octa-core processor</strong></li><hr class="hr-small">
+                                <li class="feature-item"><strong>48MP AI quad camera</strong></li><hr class="hr-small">
+                                <li class="feature-item"><strong>6.3" FHD Dot Drop display</strong></li><hr class="hr-small">
+                                <li class="feature-item"><strong>4000mAh (typ) battery with 18W fast charge</strong></li>
+                            </ul>
+                        </div>
+                        <div class="three">
+                            <div id="text-three">
+                                <p class="text-three"><strong>Powerful processor for smooth gaming</strong></p>
+                                <p class="text-three-content">With the impressive MediaTek Helio G85 gaming processor, the device offers superior performance. The octa-core CPU operates at up to 2.0GHz, increasing app response speed and further enhancing your game experience.</p>
+                            </div>
+                        </div>
+                        <div class="four">
+                            <div>
+                                <p class="four-head"><strong>Capture every aspect with the AI quad-camera<br>
+                                    More than just ultra-clear pictures</strong></p>
+                                <img src="./pics/redmi-note8/overview03.jpg" class="four-img">
+                                <div class="four-content" id="four-content">
+                                    <p class="four-content-head"><strong>48MP Main camera</strong></p><br>
+                                    <p class="four-content-text">See the world in high definition and save memories<br> in full detail</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="five">
+                        </div>
+                        <div class="six">
+                            <div id="six-content-1">
+                                <div class="six-content-head-1"><strong>120° Ultra-wide angle camera</strong></div><br>
+                                <div class="six-content-text-1">No need to step back, capture the whole scene standing where you are</div>
+                            </div>
+                        </div>
+                        <div class="six">
+                            <div class="left-con">
+                                <img src="./pics/redmi-note8/overview05.jpg">
+                            </div>
+                            <div class="right-con" id="six-content-2" style="margin:250px 0px 20px 100px">
+                                <div class="six-content-head six-content-head-2"><strong>Portraits that bring out your beauty</strong></div><br>
+                                <div class="six-content-text six-content-text-2">The background is intelligently blurred, putting extra focus on you</div>
+                            </div>
+                        </div>
+                        <div class="six">
+                            <div class="left-con" id="six-content-3" style="margin: 400px 0px 20px 0px">
+                                <div class="six-content-head six-content-head-3"><strong>Discover micro world wonders</strong></div><br>
+                                <div class="six-content-text six-content-text-3">2cm auto focus, shoot close-up photos and videos</div>
+                            </div>
+                            <div class="right-con six-img-2">
+                                <img src="./pics/redmi-note8/overview06.jpg" class="six-img-2">
+                            </div>
+                        </div>
+                        <div class="six">
+                            <div class="left-con">
+                                <img src="./pics/redmi-note8/overview07.jpg">
+                            </div>
+                            <div class="right-con" id="six-content-2" style="margin:250px 0px 20px 100px">
+                                <div class="six-content-head six-content-head-2"><strong>13MP Front camera</strong></div><br>
+                                <div class="six-content-text six-content-text-2">Lets you stand out day and night</div>
+                            </div>
+                        </div>
+                        <div class="seven">
+                            <div id="seven-text">
+                                <div class="seven-text-head"><strong>6.3" FHD Dot Drop Display<br>
+                                    Immersive and clear visual experience</strong></div>
+                                <div style="display: flex; justify-content: center;">
+                                    <ul class="feature-list-1">
+                                        <li class="feature-item-1"><strong style="font-size: 2rem;">1080P</strong><span style="font-size: 0.8rem;">FHD resolution</span></li>
+                                        <li class="feature-item-1"><strong style="font-size: 2rem;">2.5D</strong><span style="font-size: 0.8rem;">curved front glass</span></li>
+                                        <li class="feature-item-1"><strong style="font-size: 2rem;">90%</strong><span style="font-size: 0.8rem;">screen-to-body ratio</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="eight">
+                            <div id="eight-text">
+                                <p class="eight-head"><strong>End battery anxiety<br>
+                                    A full charge can last two days*</strong></p><br>
+                                <p class="eight-text">4000mAh high-capacity battery with 18W fast charge. Reaching full charge in just 2 hours*, your device is always ready to go.</p>
+                            </div>
+                        </div>
+                        <div class="nine">
+                        </div>
+                        <div class="ten">
+                            <div class="ten-video">
+                                <video width="800rem" height="500rem" autoplay muted controls loop>
+                                    <source src="./video/video-pc.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="ten-black-box" id="ten-text">
+                                <div class="col-sm-6"></div>
+                                <div class="col-sm-6">
+                                    <div class="ten-text-head"><strong>1217 super linear<br>speakers</strong>
+                                    <span class="ten-text-content">
+                                    Enjoy greater volume and better sound quality. In addition, with sonic dust removal, the sound waves can keep the speakers clean</span></div>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="eleven">
+                            <div id="eleven-text" id="eleven-text">
+                                <p class="eleven-head"><strong>Superior quality guarantee<br>
+                                    For worry-free daily use</strong></p>
+                            </div>
+                        </div>
+                        <div class="twe">
+                            <div class="twe-text" id="twe-text"><strong>Durable Corning® Gorilla® Glass 5 front and back, scratch and drop resistant</strong></div>
+                        </div>
+                        <div style="position: relative;">
+                            <div class="thi">
+                                <div class="left-con">
+                                </div>
+                                <div class="right-con" id="thi-text" style="margin:250px 0px 20px 100px">
+                                    <div class="thi-content-head"><strong>Splash-resistant nano-coating, no more fearing rain and dust</strong></div>
+                                </div>
+                            </div>
+                            <img src="./pics/redmi-note8/overview12.jpg" class="thi-img" style="z-index:1;">
+                            <div class="fourteen">
+                            </div>
+                        </div>
+                        <div class="fifteen">
+                            <div class="fifteen-content">
+                                <span class="fifteen-head"><strong>Everything you need for a smooth experience</strong></span>
+                                <ul class="feature-list-2">
+                                    <li class="feature-item-2"><img src="./pics/redmi-note8/icon01.png" class="fifteen-icon"><br><strong>3.5mm headphone jack</strong></li>
+                                    <li class="feature-item-2"><img src="./pics/redmi-note8/icon02.png" class="fifteen-icon"><br><strong>Rear fingerprint sensor</strong></li>
+                                    <li class="feature-item-2"><img src="./pics/redmi-note8/icon03.png" class="fifteen-icon"><br><strong>IR Blaster</strong></li>
+                                    <li class="feature-item-2"><img src="./pics/redmi-note8/icon04.png" class="fifteen-icon"><br><strong>FM radio</strong></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="sixteen">
+                            <div class="sixteen-head" id="sixteen-text">
+                                <strong>Exquisite appearance, smooth to the touch</strong><br><br>
+                                <span style="font-size: 1rem;">The perfect fusion of technology and aesthetics comes in three colors: Neptune Blue, Moonlight White and Space Black</span>
+                            </div>
+                        </div>
+                        <div class="seventeen">
+                            <div class="seventeen-text" id="twe-text"><strong>SEE SPECS ></strong></div>
+                        </div>
+                        <div class="container">
+                            <p class="final-text">*4000mAh refers to the typical value of Redmi Note 8 2021’s battery capacity.<br>
+                                *The images and videos on this page are for illustration purposes only and may not be the exact representation of the product.<br>
+                                *All sample photos on this page are taken with Redmi Note 8<br>
+                                *Unless otherwise indicated on the Redmi Note 8 2021 product page, all data come from Xiaomi laboratories, product design specifications and suppliers. The testing data may vary slightly due to different software versions, tested phone versions and testing environments and may not reflect the actual product.</p>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-customer-relationship">
+            <div class="container">
+                <div class="row">
+                    <div class="customer-relationship span16">
+                        <div class="introduction">
+                            <h3>Let's stay in touch</h3>
+                            <p>Get updates on sales specials and more</p>
+                        </div>
+                        <div class="customer-reaction">
+                            <div class="customer-email">
+                                <div>
+                                    <input type="text" name="email" placeholder="Enter Email Address">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="customer-relationship span8" style="margin-left: 20%;">
+                        <div class="introduction">
+                            <h3>Follow Mi</h3>
+                            <p>We want to hear from you!</p>
+                        </div>
+                        <div class="customer-reaction">
+                            <div class="social-media">
+                               <img src="./pics/footer/facebook.png" class="social-media-item">
+                               <img src="./pics/footer/youtube.png" class="social-media-item">
+                               <img src="./pics/footer/ins.png" class="social-media-item">
+                               <img src="./pics/footer/twitter.png" class="social-media-item">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-nav">
+                <div class="container">
+                    <dl class="column-wrapper">
+                        <dt>SHOP AND LEARN</dt>
+                        <dd class="column-item">Xiaomi 11T Pro</dd><br>
+                        <dd class="column-item">Xiaomi 11 Lite 5G NE</dd><br>
+                        <dd class="column-item">Xiaomi Pad 5</dd><br>
+                        <dd class="column-item">Redmi Buds 3 Pro</dd><br>
+                        <dd class="column-item">Mi Smart Band 6</dd>
+                    </dl>
+                    <dl class="column-wrapper">
+                        <dt>SUPPORT</dt>
+                        <dd class="column-item">Contact us</dd><br>
+                        <dd class="column-item">User Guide</dd><br>
+                        <dd class="column-item">Warranty</dd><br>
+                        <dd class="column-item">EU Declaration of Conformity</dd><br>
+                        <dd class="column-item">Scooter Safety Notice</dd><br>
+                        <dd class="column-item">Android Enterprise Recommended</dd>
+                    </dl>
+                    <dl class="column-wrapper">
+                        <dt>CONTACT US</dt>
+                        <dd class="column-item">Facebook</dd><br>
+                        <dd class="column-item">Youtube</dd><br>
+                        <dd class="column-item">Instagram</dd><br>
+                        <dd class="column-item">Twitter</dd>
+                    </dl>
+                    <dl class="column-wrapper">
+                        <dt>ABOUT US</dt>
+                        <dd class="column-item">Xiaomi</dd><br>
+                        <dd class="column-item">Leadership Team</dd><br>
+                        <dd class="column-item">Privacy Policy</dd><br>
+                        <dd class="column-item">Integrity & Compliance</dd><br>
+                        <dd class="column-item">Press & Media</dd><br>
+                        <dd class="column-item">Xiaomi Blog</dd><br>
+                        <dd class="column-item">Investor Relations</dd><br>
+                        <dd class="column-item">Sustainability</dd><br>
+                        <dd class="column-item">Trust Center</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container" style="border-top: 1px solid #424242;">
+                    <div class="copyright">Copyright © 2010 - 2021  Xiaomi. All Rights Reserved</div>
+                    <span class="cookie-policy" style="border-left: 1px solid #424242;">Cookie Settings Cookie policy</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Head script -->
+    <script src="./nav_bar.js"></script>
+
+    <!-- Redmi-note8 script -->
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+        gsap.to(".text-three", {
+            scrollTrigger: "#text-three",
+            y: -20,
+            opacity:1
+        }).duration(1.5);
+        gsap.to(".text-three-content", {
+            scrollTrigger: "#text-three",
+            y: -20,
+            opacity:1
+        }).duration(1.5);
+        gsap.to(".four-head", {
+            scrollTrigger: ".four-head",
+            y: -20,
+            opacity:1
+        }).duration(2);
+        gsap.to(".four-content-head", {
+            scrollTrigger: "#four-content",
+            y: -10,
+            opacity:1
+        });
+        gsap.to(".four-content-text", {
+            scrollTrigger: "#four-content",
+            y: -10,
+            opacity:1
+        });
+        gsap.to(".six-content-head-1", {
+            scrollTrigger: "#six-content-1",
+            y: -10,
+            opacity:1
+        }).duration(2);
+        gsap.to(".six-content-text-1", {
+            scrollTrigger: "#six-content-1",
+            y: -10,
+            opacity:1
+        }).duration(2);
+        gsap.to(".six-content-head-2", {
+            scrollTrigger: "#six-content-2",
+            y: -20,
+            opacity:1
+        }).duration(2);
+        gsap.to(".six-content-text-2", {
+            scrollTrigger: "#six-content-2",
+            y: -20,
+            opacity:1
+        }).duration(2);
+        gsap.to(".six-content-head-3", {
+            scrollTrigger: "#six-content-3",
+            y: -20,
+            opacity:1
+        }).duration(2);
+        gsap.to(".six-content-text-3", {
+            scrollTrigger: "#six-content-3",
+            y: -20,
+            opacity:1
+        }).duration(2);
+        gsap.to(".six-content-head-4", {
+            scrollTrigger: "#six-content-4",
+            y: -20,
+            opacity:1
+        }).duration(2);
+        gsap.to(".six-content-text-4", {
+            scrollTrigger: "#six-content-4",
+            y: -20,
+            opacity:1
+        }).duration(2);
+        gsap.to(".seven-text-head", {
+            scrollTrigger: ".seven-text-head",
+            y: -30,
+            opacity:1
+        }).duration(2);
+        gsap.to(".eight-head", {
+            scrollTrigger: "#eight-text",
+            y: -30,
+            opacity:1
+        }).duration(1);
+        gsap.to(".eight-text", {
+            scrollTrigger: "#eight-text",
+            y: -30,
+            opacity:1
+        }).duration(1);
+        gsap.to(".ten-text-head", {
+            scrollTrigger: "#ten-text",
+            y: -130,
+            opacity:1
+        }).duration(2);
+        gsap.to(".ten-text-content", {
+            scrollTrigger: "#ten-text",
+            y: -20,
+            opacity:1
+        }).duration(2);
+        gsap.to(".eleven-head", {
+            scrollTrigger: "#eleven-text",
+            y: -50,
+            opacity:1
+        }).duration(2);
+        gsap.to(".twe-text", {
+            scrollTrigger: "#twe-text",
+            y: -50,
+            opacity:1
+        }).duration(2);
+        gsap.to(".thi-content-head", {
+            scrollTrigger: "#thi-text",
+            y: -50,
+            opacity:1
+        }).duration(2);
+        gsap.to(".sixteen-head", {
+            scrollTrigger: "#sixteen-text",
+            y: -30,
+            opacity:1
+        }).duration(2);
+    </script>
+</body>
+</html>
